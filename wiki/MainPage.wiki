@@ -1,0 +1,13 @@
+#summary Main WikiPage for the IHA System Engineering course Company F
+
+= Introduction =
+
+This page is the main starting point of the Company F wiki. Please follow the link below to read details about the project status.
+
+On this page can also be found the overall activities that is happening right now.
+
+= Ongoing activities =
+
+ # Reading of cases and curriculum. 
+ # Determination of project language.
+ # Creation of Wiki structure.
