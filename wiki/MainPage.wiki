@@ -11,3 +11,14 @@ On this page can also be found the overall activities that is happening right no
  # Reading of cases and curriculum. 
  # Determination of project language.
  # Creation of Wiki structure.
+
+= Case comments =
+
+This section contains comments about the individual requirements in the case, along with suggestions as to whether they are acceptable as is, should be broken down, is untestable, ...
+
+|| Requirement || Comment ||
+|| UR-22       || The word optimal is untestable and must be quantified ||
+
+General comments may be placed here as a bulleted list, e.g. problems with power consumption, etc.
+
+ * 
