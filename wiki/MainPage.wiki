@@ -6,6 +6,12 @@ This page is the main starting point of the Company F wiki. Please follow the li
 
 On this page can also be found the overall activities that is happening right now.
 
+= Documentation formats =
+
+ * Text documents should be in Microsoft Word 2007
+ * Visio drawings should be accompanied with a .jpg file for non-visio users.
+ * Microsoft Projects files should be accompanied by a .pdf file for non-projects users. 
+
 = Ongoing activities =
 
  # Reading of cases and curriculum. 
