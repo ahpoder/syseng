@@ -17,7 +17,7 @@ On this page can also be found the overall activities that is happening right no
  # Reading of cases and curriculum. 
  # Determination of project language.
  # Creation of Wiki structure.
- # Create first draft system drawing from requirements (see subversion)
+ # Create first draft system drawing from requirements (see subversion or [SystemDesign])
 
 = Case comments =
 
