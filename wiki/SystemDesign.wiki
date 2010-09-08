@@ -7,3 +7,9 @@ This page contains an overview of the system as it relates to communication, pow
 = Overview =
 
 http://syseng.googlecode.com/svn/trunk/system_drawing.jpg
+
+= Power =
+
+
+
+= Weight =
