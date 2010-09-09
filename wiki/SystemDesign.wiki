@@ -10,19 +10,29 @@ http://syseng.googlecode.com/svn/trunk/system_drawing.jpg
 
 = Power and Weight =
 
+http://syseng.googlecode.com/svn/trunk/system_drawing_power.jpg
+
 == Power table ==
 
+|| Description       || Sum      || Continous power at 115VAC || Continous power at 27VDC ||
+|| Continous 28VDC   || 85 + 4*3 ||                           || 97W                                ||
+|| Pod structure || 175kg   ||
+|| PCU           || 25kg    ||
+|| ECU           || 18.2kg  ||
+|| 4 x DSS       || 15kg    ||
+|| 3 x Dispenser || 9kg     ||
+|| Total         || 267,2kg ||
 
 
-= Weight =
+== Weight ==
 
-
+|| *Description* || Weight  ||
 || Pod harness   || 20kg    ||
 || Pod structure || 175kg   ||
 || PCU           || 25kg    ||
 || ECU           || 18.2kg  ||
-|| 4 * DSS       || 15kg    ||
-|| 3 * Dispenser || 9kg     ||
+|| 4 x DSS       || 15kg    ||
+|| 3 x Dispenser || 9kg     ||
 || Total         || 267,2kg ||
 
 *ACCEPTABLE!*
