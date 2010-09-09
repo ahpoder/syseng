@@ -14,15 +14,24 @@ http://syseng.googlecode.com/svn/trunk/system_drawing_power.jpg
 
 == Power table ==
 
-|| Description       || Sum      || Continous power at 115VAC || Continous power at 27VDC ||
-|| Continous 28VDC   || 85 + 4*3 ||                           || 97W                                ||
-|| Pod structure || 175kg   ||
-|| PCU           || 25kg    ||
-|| ECU           || 18.2kg  ||
-|| 4 x DSS       || 15kg    ||
-|| 3 x Dispenser || 9kg     ||
-|| Total         || 267,2kg ||
+|| Description       || Sum            || Total ||
+|| Continous 28VDC   || ECU + 4 x DSS  || 97W   ||
+|| Continous 115VAC  ||                || 100W  ||
+|| Peak 28VDC        || 3 x Dispensing || 378W  ||
+||                   ||                ||       ||         
+|| Maximum 28VDC     ||                || 250W  ||
+|| Maximum 115VAC    ||                || 700W  ||
+||                   ||                        ||       ||         
+|| Conversion        || 1W 115VAC = 4,1W 28VDC || ||
+||                   ||                        ||       ||         
+|| Continous 115VAC  || 97 / 4,1 + 100 || 123.66W ||
+|| Peak 115VAC       || 378 / 4,1 + 100 || 192.20W ||
+|| Worst case 115VAC || 123.66 + 192.20 || 315.86 ||
+||                   ||                        ||       ||         
 
+As we "only" have 250W at 28VDC there is no way we can get 378 + 97, and we can therefore not fire all three dispensers at once. If we only fire one at a time we get 126 + 97, and that is below the 250W max.
+
+As for the maximum of 700W at 115VAC there is no porblem what so ever as worst case is 315.86W peak as 115VAC.
 
 == Weight ==
 
