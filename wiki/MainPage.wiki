@@ -30,3 +30,5 @@ This section contains comments about the individual requirements in the case, al
 General comments may be placed here as a bulleted list, e.g. problems with power consumption, etc.
 
  * There is no indication of the efficiency of the PCU.
+ * We can only fire one Dispenser at a time (20ms intervals) - is that acceptable? (see subversion or [SystemDesign])
+ *
