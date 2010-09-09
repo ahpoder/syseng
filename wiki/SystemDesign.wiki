@@ -8,8 +8,21 @@ This page contains an overview of the system as it relates to communication, pow
 
 http://syseng.googlecode.com/svn/trunk/system_drawing.jpg
 
-= Power =
+= Power and Weight =
+
+== Power table ==
 
 
 
 = Weight =
+
+
+|| Pod harness   || 20kg    ||
+|| Pod structure || 175kg   ||
+|| PCU           || 25kg    ||
+|| ECU           || 18.2kg  ||
+|| 4 * DSS       || 15kg    ||
+|| 3 * Dispenser || 9kg     ||
+|| Total         || 267,2kg ||
+
+*ACCEPTABLE!*
