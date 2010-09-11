@@ -37,23 +37,29 @@ Mødet blev afholdt som et konference opkald.
 
 Det blev afklaret at afleveringsfristen 72 timer før mødet er 3 dage i kallendertid, inklusiv weekend, så hvis mødet er mandag kl.: 10 så skal materialet afleveres inden fredag kl.: 10.
 
-Der blev stillet spørgsmål til hvad vi helt præcis skal afleverer til review d. 28/9-10.
+Der blev stillet spørgsmål til hvad vi helt præcis skal afleverer til review d. 28/9-10. Det blev besluttet at Anders skulle formulere en email til Rune.
 
- Ifølge bogen (s. 72) består output at system requirements analysis process af en hel samling dokumenter:
+Vi blev enige om en brug af Wiki og Subversion, og hvordan vi fortsætter med projektet. 
 
-System requirements
-Measures of preformance needs
-MOP Data
-System Functions
-System Functional Interfaces
-Verification Criteria
-Specification Tree
-System Specifications
-Updated RVTM
-System Requirements traceability
+== Forberedelse til møde d. 17/10 ==
 
-Vi er ikke helt sikre på hvad præcis vi skal lave. Vi forestiller os at lave en SRS med en beskrivelse af hvad der skal til for at teste de forskellige krav, evt. med et trace tilbage til Stakeholder requirements (s. 56/57), men er det korrekt?
+ # Vi laver en side med alle Terma case krav og så tilføjer vi kommentarer under hver. Dette skal være færdig Søndag d. 12/10 om aftenen.
+ # Disse kommentarer samles nu til en serie spørgsmål på en anden Wiki-side Mandag d. 13/10, som forberedelse til spørgsmål før mødet d. 17/10.
+ # Disse spørgsmål reviewes Tirsdag d. 14/10 og afsendes tirsdag aften.
 
-Det afhænger jo også lidt af hvor vi er. Hvis den case vi har fået fra Terma skal udgøre output fra en Stakeholder Requirements Definition Process, så må det vi skal til review med d. 28/9 jo være output fra en Requirements Analysis process. Hvis derimod vi er tidligere end det og først skal lave en Stakeholder Requirements Definition Process så ser det naturligvis anderledes ud. I output fra Stakeholder Requirements Definition Process er der jo ting som ikke er i Terma casen, men omvendt er Terma casen noget mere specifik end bare Stakeholder Needs. 
+== Arbejde med underleverandør (Terma case) ==
 
+ # Efter arbejde med spørgsmål til Terma case er færdiggjort aftales en skillelinie mellem hvad underleverandør skal lave og hvad vi skal lave
+ # Efter denne deling er gjort kan gruppen arbejde parallelt på SRS og underleverandør Statement of Work.
+ # der vil blive oprettet en Wiki hvor dette statement of work vil blive samlet og der vil komme kommentarer fra hele gruppen
+ # Derefter vil det blive versioneret i subversion ligesom SRS'en (se nedenfor).
+ # Der holdes derefter review på Statement of work før det sendes til underleverandør. 
 
+== Arbejde med SRS ==
+
+ # Når vi har fået afklaring på hvad præcis det er vi skal lave så påbegyndes dette arbejde ved at kombinerer Terma case requirements med kommentarer og svar på spørgsmål og en egentlig SRS skrives. 
+ # Denne skrives som et word dokument i subversion og versioneres (første version er v0).
+ # Der afholdes intern review på denne spec, hvor hver medlem af gruppen laver en word kopi og skriver kommentarer som så comittes. 
+ # Derefter samles disse kommentarer i en v1 af SRS'en (Fagan review principles), som også comittes i subversion.
+
+== Arbejde med 
