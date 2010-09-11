@@ -61,4 +61,4 @@ Environmental requirements ===
 
 === UR-43 The power consumption of the pod shall not exceed 700W ===
 
-=== UR-4 The pod shall be mounted on the left-hand wing.
+=== UR-4 The pod shall be mounted on the left-hand wing. ===
