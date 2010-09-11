@@ -5,7 +5,7 @@
 == Functional requirements ==
 
 === UR-1 The pod shall include a minimum of eight standard magazines. ===
-* 
+ * 
 
 === UR-2 The pod shall be able to dispense forwards, downwards and sideways. ===
 
