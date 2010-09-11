@@ -82,9 +82,15 @@
  * Lars: Left hand wing is that left hand for a pilot sitting in the aircraft?
 
 = Preconditions =
+
 == Power ==
+
 Your company has access to a qualified Power Conversion Unit, converting 115VAC 400Hz to 28VDC. The PCU can output a maximum of 250W. The PCU weighs 25 kg.
+
+ * Lars: Has access to, do that mean we can by or can produce our own PCU and this will and shall be placed in the POD?
+
 == Missile Warning System ==
+
 The MWS consists of six sensor units and one Electronics Control Unit (ECU)
 The ECU will provide threat information in inertial format. Direction of the threat is relative to north.
 The MWS must receive navigation data from the aircraft mission computer with a minimum latency. Navigation data includes aircraft attitude, heading, altitude and GPS data.
@@ -92,11 +98,22 @@ The MWS is qualified to the following steady state acceleration levels 4g fore 2
 The MWS requires a maximum of 85W from 28VDC and a maximum of 100W from 115VAC 400Hz
 The MWS including ECU and six sensors weighs 18,2 kg.
 The MWS operating maximum temperature is 70°C.
+
+ * Lars: MWS output shall be converted from absolute north to relative to the combat aircraft.
+ * Lars: Receive navigation data with minimum latency – if not specified better we can not guarantee prober function. 
+
 == Provided interfaces ==
+
 The cockpit unit is provided with sufficient 28 VDC power.
 Various aircraft discrete signals can be routed to cockpit unit, to be discussed.
 Wiring in wing available to pod: 6 discrete wires, shielded wires suitable for data bus, 115VAC 400Hz power.
+
+* Lars: Discrete signals does that include a "ON GROUND" signal?
+
 == Pod ==
+
 The pod structure, and if necessary, additional climate control must be purchased at sub supplier.
+
 == Dispensing ==
+
 The power required to ignite a payload is up to 126W for a period of up to 20ms. The Digital Sequencer Switches (DSS) run on 28 VDC and each consumes 3W for operating power plus the power required to ignite the payloads. Each DSS can control 2 magazines.
