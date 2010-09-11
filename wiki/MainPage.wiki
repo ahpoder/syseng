@@ -12,13 +12,6 @@ On this page can also be found the overall activities that is happening right no
  * Visio drawings should be accompanied with a .jpg file for non-visio users.
  * Microsoft Projects files should be accompanied by a .pdf file for non-projects users. 
 
-= Ongoing activities =
-
- # Reading of cases and curriculum. 
- # Create first draft system drawing from requirements (see subversion or [SystemDesign])
- # Add comments to Terma case requirements on [CaseComments]
- # Formulate questions for Terma
-
 = Terma case =
 
 The case requirements from Terma A/S must be turned into an SRS. In the following document may be read the comments we have to the case.
@@ -34,3 +27,15 @@ While working with the case some questions have arisen and these have been formu
 = System Requirements Specifications =
 
 The system requirements specification can be found in its different versions in Subversion.
+
+= Ongoing activities =
+
+ # Reading of cases and curriculum. 
+ # Add comments to Terma case requirements on [CaseComments]
+ # Formulate questions for Terma
+
+= Completed activities =
+
+ # Create first draft system drawing from requirements (see subversion or [SystemDesign])
+ # Create Wiki structure
+ # 
