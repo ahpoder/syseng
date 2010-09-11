@@ -32,3 +32,28 @@
 Det blev besluttet at forsøge at time-boxe hver punkt til 10minutter.
 
 = Minutes = 
+
+Mødet blev afholdt som et konference opkald.
+
+Det blev afklaret at afleveringsfristen 72 timer før mødet er 3 dage i kallendertid, inklusiv weekend, så hvis mødet er mandag kl.: 10 så skal materialet afleveres inden fredag kl.: 10.
+
+Der blev stillet spørgsmål til hvad vi helt præcis skal afleverer til review d. 28/9-10.
+
+ Ifølge bogen (s. 72) består output at system requirements analysis process af en hel samling dokumenter:
+
+System requirements
+Measures of preformance needs
+MOP Data
+System Functions
+System Functional Interfaces
+Verification Criteria
+Specification Tree
+System Specifications
+Updated RVTM
+System Requirements traceability
+
+Vi er ikke helt sikre på hvad præcis vi skal lave. Vi forestiller os at lave en SRS med en beskrivelse af hvad der skal til for at teste de forskellige krav, evt. med et trace tilbage til Stakeholder requirements (s. 56/57), men er det korrekt?
+
+Det afhænger jo også lidt af hvor vi er. Hvis den case vi har fået fra Terma skal udgøre output fra en Stakeholder Requirements Definition Process, så må det vi skal til review med d. 28/9 jo være output fra en Requirements Analysis process. Hvis derimod vi er tidligere end det og først skal lave en Stakeholder Requirements Definition Process så ser det naturligvis anderledes ud. I output fra Stakeholder Requirements Definition Process er der jo ting som ikke er i Terma casen, men omvendt er Terma casen noget mere specifik end bare Stakeholder Needs. 
+
+
