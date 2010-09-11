@@ -88,6 +88,7 @@
 Your company has access to a qualified Power Conversion Unit, converting 115VAC 400Hz to 28VDC. The PCU can output a maximum of 250W. The PCU weighs 25 kg.
 
  * Lars: Has access to, do that mean we can by or can produce our own PCU and this will and shall be placed in the POD?
+ * AHP: There is no indication of the efficiency of the PCU.
 
 == Missile Warning System ==
 
