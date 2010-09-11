@@ -1,0 +1,64 @@
+#summary Comments for the Terma case requirements
+
+= Requirements =
+
+== Functional requirements ==
+
+=== UR-1 The pod shall include a minimum of eight standard magazines. ===
+
+=== UR-2 The pod shall be able to dispense forwards, downwards and sideways. ===
+
+=== UR-3 Introduction of the system may not compromise the operation of the current weapon systems. ===
+
+=== UR-5 Threats shall be transmitted to the aircraft mission computer in body frame format (relative to aircraft) for displaying purposes. ===
+
+=== UR-6 The system shall provide the aircraft mission computer with status information and built in test results. ===
+
+=== UR-7 The system shall interface the aircraft intercom system to provide audio cues and warnings. ===
+
+=== UR-8 The system shall include a hardware implemented safety interlock to prevent dispensing on ground. ===
+
+=== UR-9 The system shall be able to erase sensitive data upon input from a discrete zeroize signal from aircraft. ===
+
+=== UR-10 The system status on individual LRU level shall be provided by cockpit unit. ===
+
+=== UR-11 The cockpit unit shall be able to control power of dispensing system and MWS. ===
+
+=== UR-12 The system shall comprise at least three modes, manual, semi automatic and automatic. ===
+
+=== UR-13 Manual mode shall dispense the program selected by the pilot. ===
+
+=== UR-14 Semi automatic shall initiate an intelligent threat response upon consent from the pilot. ===
+
+=== UR-15 Automatic mode shall initiate an intelligent threat response without pilot interaction. ===
+
+=== UR-16 The system shall provide a method of loading software to MWS. ===
+
+== Performance requirements ==
+
+=== UR-20 The system shall be able to dispense a minimum of two payloads simultaneously. ===
+
+=== UR-21 The system shall be able to dispense an intelligent pattern of payloads programmable by customer. ===
+
+=== UR-22 The system shall provide the optimal coverage against missile threats.
+Environmental requirements ===
+
+=== UR-30 The pod structure shall remain intact when exposed to steady state acceleration levels of 5g fore 2.5 aft, 25g up, 11 down. ===
+
+=== UR-31 The total weight of pod cannot exceed 270 kg. ===
+
+=== UR-32 The pod shall be operational at temperatures of 95°C on outer skin and 102°C on leading edge for 25 minutes. ===
+
+=== UR-33 The pod shall be operational at temperatures of 134°C on outer skin and 151°C on leading edge for 3 minutes. ===
+
+== Interface requirements ==
+
+=== UR-40 The cockpit unit shall communicate with the MWS via a MIL_STD-1553-B data bus. ===
+
+=== UR-41 The cockpit unit shall communicate with the mission computer via a MIL-STD-1553-B data bus. ===
+
+=== UR-42 The pod shall be mounted on the aircraft wing with standard T-hooks spaced by 13 inches. ===
+
+=== UR-43 The power consumption of the pod shall not exceed 700W ===
+
+=== UR-4 The pod shall be mounted on the left-hand wing.
