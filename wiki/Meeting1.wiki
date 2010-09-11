@@ -1,0 +1,34 @@
+#summary Meeting 11/10-09
+
+= Partisipents =
+
+ * Kaj Norman
+ * Kenneth Pihl
+ * Lars Munch
+ * Anders H. Poder
+
+= Agenda =
+
+1. Diskussion af papirer der fungerer som oplæg til opgaven.
+       Afklaring ?  af de spørgsmål der har været i.f.h.t. afleveringstider
+       Afklaring af andre spørgsmål  (jeg har et par)
+
+2. Gennemgang af det indsendte
+       Tidsplanen fra Lars Munch
+       Skitser fra Anders Hvidgaard
+       Stakeholder requirement def.(v 0.01) Kaj
+
+3. Arbejdsplan
+       Møder.
+       Møde på fredag
+       Deadlines hvem laver hvad.
+
+4. Brug af google-code. (Anders)
+       eventuelt lidt mere instruktion.
+       gør vi det optimalt.
+
+5. eventuelt andet
+
+Det blev besluttet at forsøge at time-boxe hver punkt til 10minutter.
+
+= Minutes = 
