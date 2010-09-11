@@ -39,7 +39,7 @@
  * Lars: Initiate an intelligent threat response – this is not a definition that can be tested with only one result and it will depnd on the the persons that test it. Can be changed to a special test sequence that gives an feedback that shall be like the test specifies.
 
 === UR-16 The system shall provide a method of loading software to MWS. ===
- * How is it possible to communicate and in this way loading SW to the MWS?
+ * Lars: How is it possible to communicate and in this way loading SW to the MWS?
 
 == Performance requirements ==
 
