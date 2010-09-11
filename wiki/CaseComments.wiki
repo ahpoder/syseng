@@ -6,7 +6,6 @@
 
 === UR-1 The pod shall include a minimum of eight standard magazines. ===
  * AHP: The word minimum is not suitable for a requirement specification. A better wording is to split it into two requirements, one indicating that it SHALL include 8, and another that indicates that the system should be designed to facilitate extention with more magazines (SHOULD).
- * 
 
 === UR-2 The pod shall be able to dispense forwards, downwards and sideways. ===
  * Lars: Forwards – won’t there be a danger for the  combat fighter flies into the chaffs and flares? Why not backwards will the missile not often come from the back?
