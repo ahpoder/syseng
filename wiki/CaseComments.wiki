@@ -108,7 +108,7 @@ The cockpit unit is provided with sufficient 28 VDC power.
 Various aircraft discrete signals can be routed to cockpit unit, to be discussed.
 Wiring in wing available to pod: 6 discrete wires, shielded wires suitable for data bus, 115VAC 400Hz power.
 
-* Lars: Discrete signals does that include a "ON GROUND" signal?
+ * Lars: Discrete signals does that include a "ON GROUND" signal?
 
 == Pod ==
 
