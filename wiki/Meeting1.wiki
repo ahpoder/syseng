@@ -43,7 +43,7 @@ Vi blev enige om en brug af Wiki og Subversion, og hvordan vi fortsætter med pr
 
 == Forberedelse til møde d. 17/10 ==
 
- # Vi laver en side med alle Terma case krav og så tilføjer vi kommentarer under hver. Dette skal være færdig Søndag d. 12/10 om aftenen.
+ # Vi laver en side med alle Terma case krav og så tilføjer vi kommentarer under hver. Anders starter med at samle de eksisterende kommentarer efter dette format. Dette skal være færdig Søndag d. 12/10 om aftenen.
  # Disse kommentarer samles nu til en serie spørgsmål på en anden Wiki-side Mandag d. 13/10, som forberedelse til spørgsmål før mødet d. 17/10.
  # Disse spørgsmål reviewes Tirsdag d. 14/10 og afsendes tirsdag aften.
 
