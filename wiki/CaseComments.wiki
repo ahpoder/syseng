@@ -5,6 +5,7 @@
 == Functional requirements ==
 
 === UR-1 The pod shall include a minimum of eight standard magazines. ===
+ * AHP: The word minimum is not suitable for a requirement specification. A better wording is to split it into two requirements, one indicating that it SHALL include 8, and another that indicates that the system should be designed to facilitate extention with more magazines (SHOULD).
  * 
 
 === UR-2 The pod shall be able to dispense forwards, downwards and sideways. ===
@@ -42,8 +43,13 @@
 === UR-21 The system shall be able to dispense an intelligent pattern of payloads programmable by customer. ===
 
 === UR-22 The system shall provide the optimal coverage against missile threats. Environmental requirements ===
+ * AHP: The word optimal is untestable and must be quantified
 
 === UR-30 The pod structure shall remain intact when exposed to steady state acceleration levels of 5g fore 2.5 aft, 25g up, 11 down. ===
+ * Lars: Specify a steady state acceleration level of 5g fore 2.5aft, 25g up and 11g down, but under Missile Warning System is stated that the MWS is only qualified to 4g fore 2.5aft, 22g up and 10g down. A test of an assembled system can then not be done above 4g, 22g and 10g.
+ * Lars: what are meant with "fore" and "aft"
+ * Kenneth: My guess is that fore and aft refer to the hooks where the pod is attached to the aircraft; one in front (fore) and one in the rear (aft)
+ * Kaj: 5g is the accelleration forward (in the flight direction of the aeroplane - positive when starting) 2.5g is the deccelleration in the flight direction of the aeroplane - positive when breaking for landing. There seems to be a mess in the description of the test(a number presumably the aft accelleration is missing).
 
 === UR-31 The total weight of pod cannot exceed 270 kg. ===
 
