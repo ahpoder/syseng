@@ -60,7 +60,7 @@
  * Lars: Specify a steady state acceleration level of 5g fore 2.5aft, 25g up and 11g down, but under "Precoditions -> Missile Warning System" is stated that the MWS is only qualified to 4g fore 2.5aft, 22g up and 10g down. A test of an assembled system can then not be done above 4g, 22g and 10g.
 
 === UR-31 The total weight of pod cannot exceed 270 kg. ===
- * Bad grammar "Cannot exceed 270kg" – they probably want to say that the total weigth shall be maximum 270kg.
+ * Lars: Bad grammar "Cannot exceed 270kg" – they probably want to say that the total weigth shall be maximum 270kg.
 
 === UR-32 The pod shall be operational at temperatures of 95°C on outer skin and 102°C on leading edge for 25 minutes. ===
  * Lars: What is the normal temperature level of the POD? If the level are so high that the temperature level that the MWS see after UR 32 or UR 33 are above 70°C then additional climate control must be added.
