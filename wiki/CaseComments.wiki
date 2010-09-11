@@ -40,8 +40,7 @@
 
 === UR-21 The system shall be able to dispense an intelligent pattern of payloads programmable by customer. ===
 
-=== UR-22 The system shall provide the optimal coverage against missile threats.
-Environmental requirements ===
+=== UR-22 The system shall provide the optimal coverage against missile threats. Environmental requirements ===
 
 === UR-30 The pod structure shall remain intact when exposed to steady state acceleration levels of 5g fore 2.5 aft, 25g up, 11 down. ===
 
