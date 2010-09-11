@@ -30,16 +30,3 @@ The case requirements from Terma A/S must be turned into an SRS. In the followin
 While working with the case some questions have arisen and these have been formulated in the below document and sent to Terma for answering prior to the meeting on 17/9-10.
 
 [CaseQuestions]
-
-
-This section contains comments about the individual requirements in the case, along with suggestions as to whether they are acceptable as is, should be broken down, is untestable, ...
-
-|| Requirement || Comment ||
-|| UR-22       || The word optimal is untestable and must be quantified ||
-|| UR-1        || The word minimum is not suitable for a requirement specification. A better wording is to split it into two requirements, one indicating that it SHALL include 8, and another that indicates that the system should be designed to facilitate extention with more magazines (SHOULD). || 
-
-General comments may be placed here as a bulleted list, e.g. problems with power consumption, etc.
-
- * There is no indication of the efficiency of the PCU.
- * We can only fire one Dispenser at a time (20ms intervals) - is that acceptable? (see subversion or [SystemDesign])
- *
