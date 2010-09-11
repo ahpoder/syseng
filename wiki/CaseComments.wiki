@@ -19,7 +19,7 @@
 === UR-7 The system shall interface the aircraft intercom system to provide audio cues and warnings. ===
 
 === UR-8 The system shall include a hardware implemented safety interlock to prevent dispensing on ground. ===
- * Is this a discrete we can get from the system? Is it a message on the system data bus? Or must it be implemented on the dispenser itself? Is it allowed to be a discrete, or should there (also) be a physical HW "pin" (like in a grenade) that must be removed before flight - I know that in real life such a "pin" exists
+ * AHP: Is this a discrete we can get from the system? Is it a message on the system data bus? Or must it be implemented on the dispenser itself? Is it allowed to be a discrete, or should there (also) be a physical HW "pin" (like in a grenade) that must be removed before flight - I know that in real life such a "pin" exists
 
 === UR-9 The system shall be able to erase sensitive data upon input from a discrete zeroize signal from aircraft. ===
 
