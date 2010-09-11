@@ -62,4 +62,6 @@ Vi blev enige om en brug af Wiki og Subversion, og hvordan vi fortsætter med pr
  # Der afholdes intern review på denne spec, hvor hver medlem af gruppen laver en word kopi og skriver kommentarer som så comittes. 
  # Derefter samles disse kommentarer i en v1 af SRS'en (Fagan review principles), som også comittes i subversion.
 
-== Arbejde med 
+== Arbejde som underleverandør (Systematic) ==
+
+ # Da underleverandørens opgave i denne case er meget fluffy er vi ret afhængige af de krav vi får fra den primary contractor, så ud over at gøre os bekendt med casen vil vi ikke arbejde på denne før vi har noget konkret.
