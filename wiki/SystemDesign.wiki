@@ -32,6 +32,8 @@ As we "only" have 250W at 28VDC there is no way we can get 378 + 97, and we can 
 
 As for the maximum of 700W at 115VAC there is no porblem what so ever as worst case is 315.86W peak as 115VAC.
 
+Lars -> AHP: I have to correct you here. You are talking about power, but the power on the various voltages are not depended on the voltage like you have written here. If it were the currents you wrote about then it would be correct – if the efficiency was 100%. And if the efficiency was 100% then 1W at 115V would also give 1W at 28Vdc – if efficiency is 80% then 1W at 115Vac will give 0.8W at 28Vdc.
+
 == Weight ==
 
 || *Description* || *Weight* ||
