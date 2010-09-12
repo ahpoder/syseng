@@ -38,25 +38,33 @@ The MWS will be provided as Government Furnished Equipment (GFE) and be physical
 
  *  Kaj: The “Body frame format” is presumably a a protocol for transferring position or direction of the threatening misiles. See picture below.
  * Kaj: We will need  the full information about this protocol.  At all levels (Physical, Electrical ,etc)
-The information that states this is for displaying purposes  is not complete .. This information is also for audible and other purposes.
+ * Kaj: The information that states this is for displaying purposes  is not complete .. This information is also for audible and other purposes.
  From http://www.perfectlogic.com/Articles/Avionics/FlightDynamics/FlightPart2.html
 
   [http://www.perfectlogic.com/Articles/Avionics/FlightDynamics/Fig2_4.gif]
 
 
 === UR-6 The system shall provide the aircraft mission computer with status information and built in test results. ===
+ * Kaj: What kind and amount of status information is needed. How will this be initiated
+ * Kaj: What kind and amount of test information is needed. How will this be initiated
+
 
 === UR-7 The system shall interface the aircraft intercom system to provide audio cues and warnings. ===
+ * Kaj: What kind of interface is provided.  Is there an audio cue system available for recording and playing cues. How is the protocol
 
 === UR-8 The system shall include a hardware implemented safety interlock to prevent dispensing on ground. ===
  * AHP: Is this a discrete we can get from the system? Is it a message on the system data bus? Or must it be implemented on the dispenser itself? Is it allowed to be a discrete, or should there (also) be a physical HW "pin" (like in a grenade) that must be removed before flight - I know that in real life such a "pin" exists
 
 === UR-9 The system shall be able to erase sensitive data upon input from a discrete zeroize signal from aircraft. ===
+ * Kaj: What data are sensitive. : detected misiles,  dropped loads,  configuration data  other.
+ * Kaj: What discrete signal. A button in cockpit  (hidden ??) 
+
 
 === UR-10 The system status on individual LRU level shall be provided by cockpit unit. ===
  * Lars: What is the meaning of LRU level?
 
 === UR-11 The cockpit unit shall be able to control power of dispensing system and MWS. ===
+ * Kaj: What does controll mean ? Supervise  or ..  If supervise, what will the output of the processs be and under what conditions (automatic or semiautomatic)?
 
 === UR-12 The system shall comprise at least three modes, manual, semi automatic and automatic. ===
 
