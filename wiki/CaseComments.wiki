@@ -125,8 +125,10 @@ The MWS will be provided as Government Furnished Equipment (GFE) and be physical
 == Interface requirements ==
 
 === UR-40 The cockpit unit shall communicate with the MWS via a MIL_STD-1553-B data bus. ===
+ * Kaj: There is only one Bus Controller at a time on any MIL-STD-1553 bus. Is this the cockpit unit?
 
 === UR-41 The cockpit unit shall communicate with the mission computer via a MIL-STD-1553-B data bus. ===
+ * Kaj: There is only one Bus Controller at a time on any MIL-STD-1553 bus. Is this the cockpit unit?
 
 === UR-42 The pod shall be mounted on the aircraft wing with standard T-hooks spaced by 13 inches. ===
 
@@ -174,3 +176,4 @@ The pod structure, and if necessary, additional climate control must be purchase
 The power required to ignite a payload is up to 126W for a period of up to 20ms. The Digital Sequencer Switches (DSS) run on 28 VDC and each consumes 3W for operating power plus the power required to ignite the payloads. Each DSS can control 2 magazines.
 
  * AHP: We can only fire one Dispenser at a time (20ms intervals) - is that acceptable? (see subversion or [SystemDesign])
+ * Kaj: I guess that we can fire more than one dispenser at a time if we charge  20 ms * 126 watt = 2,5 Joule into a battery or a capacitor .
