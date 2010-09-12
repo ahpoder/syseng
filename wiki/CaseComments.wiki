@@ -37,6 +37,7 @@ The MWS will be provided as Government Furnished Equipment (GFE) and be physical
 
 ===  UR-4 ===
  * Kaj: UR-4 is not in the list. For safety reasons a renumbering of the requirements is recommended in this early stage of development.
+ * Lars: UR 4 is placed as the very last one – wrong yes but it is there and it looks oaso to me as it is placed at the wrong place here. Agree a renumbering would be a good idea and at the same time check if ii is correct that it is placed nder interface requirements.
 
 === UR-5 Threats shall be transmitted to the aircraft mission computer in body frame format (relative to aircraft) for displaying purposes. ===
 
