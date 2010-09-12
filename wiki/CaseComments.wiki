@@ -4,6 +4,17 @@
 
 == Functional requirements ==
 
+=== Introduction ===
+The Royal Danish Air Force has requested your company to deliver a self protection suite for the F-16 combat aircraft. The required solution incorporates a pod and an intelligent cockpit control unit for controlling the EW suite. The pod will be dispensing payloads (chaffs and flares) and hosting the Missile Warning System (MWS). The solution shall provide warning upon detection of missile threats and be able to automatically dispense payloads in response. 
+The MWS will be provided as Government Furnished Equipment (GFE) and be physically installed by your company
+ * Kaj: When the document mentions The Royal Danish Airforce, taking the commercial aspect in consideration one should clarify who is going to pay, and what procedures will be used.
+ * Kaj: The abbreviation EW  is not known to me at this time.
+ * Kaj: Chaffs (small conductive stripes) are used as a countermeasure against being radar detected
+ * Kaj: Flares (burning metal often magnesium) is used as a countermeasure against being detected by a heat seeking misile.
+ * Kaj: The Misile Warning System being a GFE is presumably very well documented regarding crew safety. How good is the documentation when considering the interface (hardware/software/mechanical) description
+
+
+
 === UR-1 The pod shall include a minimum of eight standard magazines. ===
  * AHP: The word minimum is not suitable for a requirement specification. A better wording is to split it into two requirements, one indicating that it SHALL include 8, and another that indicates that the system should be designed to facilitate extention with more magazines (SHOULD).
 
