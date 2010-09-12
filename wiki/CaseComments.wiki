@@ -27,6 +27,9 @@ The MWS will be provided as Government Furnished Equipment (GFE) and be physical
  * Kaj: I this a requirement that has to be met in the full range of operation (including g-forces in all directions)
 
 === UR-3 Introduction of the system may not compromise the operation of the current weapon systems. ===
+ * Kenneth: The weapon system is not the aircraft.
+   It's the weapons(bombs,missiles,rockets,guns,droptanks etc), the suspension/dispenser
+   system, control & electrical system, monitoring(camera, IR detectors etc).
  * Kaj: The increased weight will induce changed dynamic behavior of the  aircraft (If the aircraft is thought of as the weapon system).
  * Kaj: Dispensing payloads may limit the range  of maneuvers executed by the airplane. Or the availability of directions to throw the payloads may have to be limited.
  * Kaj: Dispensing payloads may limit on  the range of used weapons. Or the availability of directions to throw the payloads may have to be limited.
