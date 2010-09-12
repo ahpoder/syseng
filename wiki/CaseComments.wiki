@@ -73,15 +73,19 @@ The MWS will be provided as Government Furnished Equipment (GFE) and be physical
  * Kaj: I guess what is dispensed is chaffs and flares. And not the program :-)
  * Kaj: The pilot presumably initiates the  preprogrammmed dispensing program.
  * Kaj: A program is presumably a sequence defining a number of payloads to be dispensed in a predefined order and with a predefined timing.
+ * Kaj: How many programs needs to be available. How complex do they need to be. How "long". Who are doing the programming.
 
 === UR-14 Semi automatic shall initiate an intelligent threat response upon consent from the pilot. ===
  * Lars: Initiate an intelligent threat response – this is not a definition that can be tested with only one result and it will depnd on the the persons that test it. Can be changed to a special test sequence that gives an feedback that shall be like the test specifies.
+ * Kaj:I will presume that intelligent means preprogrammed.
 
 === UR-15 Automatic mode shall initiate an intelligent threat response without pilot interaction. ===
  * Lars: Initiate an intelligent threat response – this is not a definition that can be tested with only one result and it will depnd on the the persons that test it. Can be changed to a special test sequence that gives an feedback that shall be like the test specifies.
 
 === UR-16 The system shall provide a method of loading software to MWS. ===
  * Lars: How is it possible to communicate and in this way loading SW to the MWS?
+ * Kaj:  MIL_STD-1553-B defines the mechanical, electrical, and functional characteristics of a serial data bus. What is the higher level protocol.
+ * Kaj: I presume that our system will hold the original program for the mws. How big is this program? How can we check that the program is loaded corectly.
 
 == Performance requirements ==
 
