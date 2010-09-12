@@ -98,6 +98,7 @@ The MWS will be provided as Government Furnished Equipment (GFE) and be physical
  * Lars: How is it possible to communicate and in this way loading SW to the MWS?
  * Kaj:  MIL_STD-1553-B defines the mechanical, electrical, and functional characteristics of a serial data bus. What is the higher level protocol.
  * Kaj: I presume that our system will hold the original program for the mws. How big is this program? How can we check that the program is loaded corectly.
+ * Lars -> Kenneth: Yes we have some connections to the MWS, but we need information about how we can put in this SW – protocol, safety issues, only at our facilities, when mounted and so on.
 
 == Performance requirements ==
 
