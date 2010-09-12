@@ -104,11 +104,11 @@ The MWS will be provided as Government Furnished Equipment (GFE) and be physical
 
 === UR-20 The system shall be able to dispense a minimum of two payloads simultaneously. ===
  * KPI: We need Therma to clarify what is meant with "simultaneously" e.g 5 flares/sec.
- * KPI: What is meant with "customer" (buyer, service personel, pilot)?.
  * Kaj: Can simultaneoulsly as stated here in reality be in a sequence. knowing that the ignition of a payload will last 20 ms. (will 40 ms be ok?)
 
 === UR-21 The system shall be able to dispense an intelligent pattern of payloads programmable by customer. ===
  * KPI: We need clarification on what "intelligent" means.
+ * KPI: What is meant with "customer" (buyer, service personel, pilot)?.
  * Lars: "an intelligent pattern of payloads" is not testable, could be changed to “a pattern of payload programmable by customer.
  * Kaj: Is the programming to be done from the cockpit or from an externally connected device.
 
