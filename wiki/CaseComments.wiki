@@ -40,7 +40,8 @@ The MWS will be provided as Government Furnished Equipment (GFE) and be physical
 
 === UR-5 Threats shall be transmitted to the aircraft mission computer in body frame format (relative to aircraft) for displaying purposes. ===
 
- *  Kaj: The “Body frame format” is presumably a a protocol for transferring position or direction of the threatening misiles. See picture below.
+ * KPI: Is this a conflict to the statement in "Missile Warning system" which says: The ECU will provide threat information in inertial format. Direction of the threat is relative to north.
+ * Kaj: The “Body frame format” is presumably a a protocol for transferring position or direction of the threatening misiles. See picture below.
  * Kaj: We will need  the full information about this protocol.  At all levels (Physical, Electrical ,etc)
  * Kaj: The information that states this is for displaying purposes  is not complete .. This information is also for audible and other purposes.
  From http://www.perfectlogic.com/Articles/Avionics/FlightDynamics/FlightPart2.html
@@ -170,7 +171,8 @@ The MWS requires a maximum of 85W from 28VDC and a maximum of 100W from 115VAC 4
 The MWS including ECU and six sensors weighs 18,2 kg.
 The MWS operating maximum temperature is 70°C.
 
- * If the sensors are part of the POD how can they detect anything coming from the right on from above as the POD is placed under the left hand wing?
+ * KPI: If the sensors are part of the POD how can they detect anything coming from the right on from above as the POD is placed under the left hand wing?
+ * KPI: Line 2 in conflict with UR-5?
  * KPI: The MWS shall convert the thread to a position relative to north and an angle relative to aircrafts position.
  * Lars: MWS output shall be converted from absolute north to relative to the combat aircraft.
  * Lars: Receive navigation data with minimum latency – if not specified better we can not guarantee prober function. 
