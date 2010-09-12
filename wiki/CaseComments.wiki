@@ -70,6 +70,9 @@ The MWS will be provided as Government Furnished Equipment (GFE) and be physical
  * Kaj: The requirement is incomplete (At least).  Who decides if more modes are needed and when
 
 === UR-13 Manual mode shall dispense the program selected by the pilot. ===
+ * Kaj: I guess what is dispensed is chaffs and flares. And not the program :-)
+ * Kaj: The pilot presumably initiates the  preprogrammmed dispensing program.
+ * Kaj: A program is presumably a sequence defining a number of payloads to be dispensed in a predefined order and with a predefined timing.
 
 === UR-14 Semi automatic shall initiate an intelligent threat response upon consent from the pilot. ===
  * Lars: Initiate an intelligent threat response – this is not a definition that can be tested with only one result and it will depnd on the the persons that test it. Can be changed to a special test sequence that gives an feedback that shall be like the test specifies.
