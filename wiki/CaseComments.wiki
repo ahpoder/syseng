@@ -175,7 +175,8 @@ The MWS operating maximum temperature is 70°C.
  * KPI: Line 2 in conflict with UR-5?
  * KPI: The MWS shall convert the thread to a position relative to north and an angle relative to aircrafts position.
  * Lars: MWS output shall be converted from absolute north to relative to the combat aircraft.
- * Lars: Receive navigation data with minimum latency – if not specified better we can not guarantee prober function. 
+ * Lars: Receive navigation data with minimum latency – if not specified better we can not guarantee prober function.
+ * Lars: I misunderstanded this sentence:” The MWS must receive navigation data from the aircraft mission computer with a minimum latency.” in the first place. As I understand it now we shall receive the navigation data from the aircraft mission computer and pass it on to the MWS with a minimum of latency – BUT we need a maximum time so that we can test that we are below that maximum time. The problem is that our minimum latency time can be above limits that we don’t know anything about. 
 
 == Provided interfaces ==
 
@@ -183,7 +184,7 @@ The cockpit unit is provided with sufficient 28 VDC power.
 Various aircraft discrete signals can be routed to cockpit unit, to be discussed.
 Wiring in wing available to pod: 6 discrete wires, shielded wires suitable for data bus, 115VAC 400Hz power.
 
- * Lars: Discrete signals does that include a "ON GROUND" signal?
+ * Lars: Discrete signals does that include an "ON GROUND" signal?
 
 == Pod ==
 
