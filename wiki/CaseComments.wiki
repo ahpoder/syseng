@@ -96,9 +96,11 @@ The MWS will be provided as Government Furnished Equipment (GFE) and be physical
  * Lars: "an intelligent pattern of payloads" is not testable, could be changed to “a pattern of payload programmable by customer.
  * Kaj: Is the programming to be done from the cockpit or from an externally connected device.
 
-=== UR-22 The system shall provide the optimal coverage against missile threats. Environmental requirements ===
+=== UR-22 The system shall provide the optimal coverage against missile threats.  ===
  * AHP: The word optimal is untestable and must be quantified
  * Lars: Shall provide the optimal coverage against missile threats  - optimal coverage is not measurable and the main component for spotting the missiles are the MWS system which we just shall install we can not make that work better or worse.
+
+==Environmental requirements==
 
 === UR-30 The pod structure shall remain intact when exposed to steady state acceleration levels of 5g fore 2.5 aft, 25g up, 11 down. ===
  * Lars: Specify a steady state acceleration level of 5g fore 2.5aft, 25g up and 11g down, but under Missile Warning System is stated that the MWS is only qualified to 4g fore 2.5aft, 22g up and 10g down. A test of an assembled system can then not be done above 4g, 22g and 10g.
