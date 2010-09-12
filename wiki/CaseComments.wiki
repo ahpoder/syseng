@@ -100,6 +100,7 @@ The MWS will be provided as Government Furnished Equipment (GFE) and be physical
 === UR-22 The system shall provide the optimal coverage against missile threats.  ===
  * AHP: The word optimal is untestable and must be quantified
  * Lars: Shall provide the optimal coverage against missile threats  - optimal coverage is not measurable and the main component for spotting the missiles are the MWS system which we just shall install we can not make that work better or worse.
+ * Kaj: We need to get rid of this requirement. (I guess we could make it work worse ;-).. 
 
 ==Environmental requirements==
 
@@ -109,7 +110,7 @@ The MWS will be provided as Government Furnished Equipment (GFE) and be physical
  * Kenneth: My guess is that fore and aft refer to the hooks where the pod is attached to the aircraft; one in front (fore) and one in the rear (aft)
  * Kaj: 5g is the accelleration forward (in the flight direction of the aeroplane - positive when starting) 2.5g is the deccelleration in the flight direction of the aeroplane - positive when breaking for landing. There seems to be a mess in the description of the test(a number presumably the aft accelleration is missing).
  * Lars: Specify a steady state acceleration level of 5g fore 2.5aft, 25g up and 11g down, but under "Precoditions -> Missile Warning System" is stated that the MWS is only qualified to 4g fore 2.5aft, 22g up and 10g down. A test of an assembled system can then not be done above 4g, 22g and 10g.
- * Kaj: We also need to know if  e.g. fore 5g and up 25g is present at the same time (Phytagoras :-)
+ * Kaj: We also need to know if  e.g. fore 4g and up 22g is present at the same time (Phytagoras :-)
 
 === UR-31 The total weight of pod cannot exceed 270 kg. ===
  * Lars: Bad grammar "Cannot exceed 270kg" – they probably want to say that the total weigth shall be maximum 270kg.
@@ -119,6 +120,7 @@ The MWS will be provided as Government Furnished Equipment (GFE) and be physical
 
 === UR-33 The pod shall be operational at temperatures of 134°C on outer skin and 151°C on leading edge for 3 minutes. ===
  * Lars: What is the normal temperature level of the POD? If the level are so high that the temperature level that the MWS see after UR 32 or UR 33 are above 70°C then additional climate control must be added.
+ * Kaj: Difficult ??
 
 == Interface requirements ==
 
