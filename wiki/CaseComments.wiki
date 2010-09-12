@@ -66,6 +66,7 @@ The MWS will be provided as Government Furnished Equipment (GFE) and be physical
 === UR-9 The system shall be able to erase sensitive data upon input from a discrete zeroize signal from aircraft. ===
  * Kaj: What data are sensitive. : detected misiles,  dropped loads,  configuration data  other.
  * Kaj: What discrete signal. A button in cockpit  (hidden ??) 
+ * Lars: What is meant with “Discrete signal”? Shall it be understanded as a wire with a signal, when set to a specific level for a minimum of some then the system is zeroized?
 
 
 === UR-10 The system status on individual LRU level shall be provided by cockpit unit. ===
