@@ -67,6 +67,7 @@ The MWS will be provided as Government Furnished Equipment (GFE) and be physical
  * Kaj: What does controll mean ? Supervise  or ..  If supervise, what will the output of the processs be and under what conditions (automatic or semiautomatic)?
 
 === UR-12 The system shall comprise at least three modes, manual, semi automatic and automatic. ===
+ * Kaj: The requirement is incomplete (At least).  Who decides if more modes are needed and when
 
 === UR-13 Manual mode shall dispense the program selected by the pilot. ===
 
