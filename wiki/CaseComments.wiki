@@ -27,9 +27,7 @@ The MWS will be provided as Government Furnished Equipment (GFE) and be physical
  * Kaj: I this a requirement that has to be met in the full range of operation (including g-forces in all directions)
 
 === UR-3 Introduction of the system may not compromise the operation of the current weapon systems. ===
- * Kenneth: The weapon system is not the aircraft.
-   It's the weapons(bombs,missiles,rockets,guns,droptanks etc), the suspension/dispenser
-   system, control & electrical system, monitoring(camera, IR detectors etc).
+ * KPI: The weapon system is not the aircraft. It's the weapons(bombs,missiles,rockets,guns,droptanks etc), the suspension/dispenser system, control & electrical system, monitoring(camera, IR detectors etc).
  * Kaj: The increased weight will induce changed dynamic behavior of the  aircraft (If the aircraft is thought of as the weapon system).
  * Kaj: Dispensing payloads may limit the range  of maneuvers executed by the airplane. Or the availability of directions to throw the payloads may have to be limited.
  * Kaj: Dispensing payloads may limit on  the range of used weapons. Or the availability of directions to throw the payloads may have to be limited.
@@ -57,6 +55,7 @@ The MWS will be provided as Government Furnished Equipment (GFE) and be physical
  * Kaj: What kind of interface is provided.  Is there an audio cue system available for recording and playing cues. How is the protocol
 
 === UR-8 The system shall include a hardware implemented safety interlock to prevent dispensing on ground. ===
+ * KPI: The way it's done today is that the a safety-pin is inserted when the aircraft is on ground and removed before fligth.
  * AHP: Is this a discrete we can get from the system? Is it a message on the system data bus? Or must it be implemented on the dispenser itself? Is it allowed to be a discrete, or should there (also) be a physical HW "pin" (like in a grenade) that must be removed before flight - I know that in real life such a "pin" exists
 
 === UR-9 The system shall be able to erase sensitive data upon input from a discrete zeroize signal from aircraft. ===
