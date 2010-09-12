@@ -27,6 +27,7 @@ The MWS will be provided as Government Furnished Equipment (GFE) and be physical
  * Kaj to Lars: I think your conciderations are belonging in UR-3 ??
  * Kaj: This requirement is incomplete. We need to know how many in each direction
  * Kaj: I this a requirement that has to be met in the full range of operation (including g-forces in all directions)
+ * Lars: Kenneth you mentioned at a time that dispensing to the right, when placed under the left wing could be dangerous. To me it would look like it dispense into the body of the aircraft.
 
 === UR-3 Introduction of the system may not compromise the operation of the current weapon systems. ===
  * KPI: The weapon system is not the aircraft. It's the weapons(bombs,missiles,rockets,guns,droptanks etc), the suspension/dispenser system, control & electrical system, monitoring(camera, IR detectors etc).
