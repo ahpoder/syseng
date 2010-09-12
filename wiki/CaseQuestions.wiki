@@ -1,1 +1,12 @@
 #summary Questions for Terma
+ * Kaj: It looks to me that we could start putting up a list of issues grouping the questions from the customer requirements. I have tried but it did not work out as i thought..
+
+Someone pls try....   ;-(
+
+
+
+===Questions regarding the functions built into the system, and the use of these ===
+  * How is the firing sequence to be programmed and executed (UR 12,13,14,15,20,21,22)
+  * What other data/signals are handled by the system (UR   7,9, 10 ?,11 )
+  * Dispensing  (UR 1,2,3
+  * Internal signalling 
