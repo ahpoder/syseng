@@ -26,7 +26,7 @@ http://syseng.googlecode.com/svn/trunk/system_drawing_power.jpg
 ||                   ||                        ||         ||         
 || Continous 115VAC  || 97 / 0,8 + 100         || 221,25W ||
 || Peak 115VAC       || 378 / 0,8 + 100        || 572,5W  ||
-|| Worst case 115VAC || 123.66 + 192.20        || 793,75W ||
+|| Worst case 115VAC || 221,25 + 572,5         || 793,75W ||
 
 As we "only" have 250W at 28VDC there is no way we can get 378 + 97, and we can therefore not fire all three dispensers at once. If we only fire one at a time we get 126 + 97, and that is below the 250W max.
 
