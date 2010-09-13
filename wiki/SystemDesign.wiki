@@ -22,17 +22,17 @@ http://syseng.googlecode.com/svn/trunk/system_drawing_power.jpg
 || Maximum 28VDC     ||                        || 250W    ||
 || Maximum 115VAC    ||                        || 700W    ||
 ||                   ||                        ||         ||         
-|| Conversion        || 1W 115VAC = 4,1W 28VDC ||         ||
+|| Conversion        || 1W 115VAC = 0,8W 28VDC ||         ||
 ||                   ||                        ||         ||         
-|| Continous 115VAC  || 97 / 4,1 + 100         || 123.66W ||
-|| Peak 115VAC       || 378 / 4,1 + 100        || 192.20W ||
-|| Worst case 115VAC || 123.66 + 192.20        || 315.86W ||
+|| Continous 115VAC  || 97 / 0,8 + 100         || 221,25W ||
+|| Peak 115VAC       || 378 / 0,8 + 100        || 572,5W  ||
+|| Worst case 115VAC || 123.66 + 192.20        || 793,75W ||
 
 As we "only" have 250W at 28VDC there is no way we can get 378 + 97, and we can therefore not fire all three dispensers at once. If we only fire one at a time we get 126 + 97, and that is below the 250W max.
 
-As for the maximum of 700W at 115VAC there is no porblem what so ever as worst case is 315.86W peak as 115VAC.
+As for the maximum of 700W at 115VAC there is a porblem as worst case is 793,75W peak as 115VAC.
 
-Lars -> AHP: I have to correct you here. You are talking about power, but the power on the various voltages are not depended on the voltage like you have written here. If it were the currents you wrote about then it would be correct – if the efficiency was 100%. And if the efficiency was 100% then 1W at 115V would also give 1W at 28Vdc – if efficiency is 80% then 1W at 115Vac will give 0.8W at 28Vdc.
+Lars -> AHP: I have to correct you here. You are talking about power, but the power on the various voltages are not depended on the voltage like you have written here. If it were the currents you wrote about then it would be correct – if the efficiency was 100%. And if the efficiency was 100% then 1W at 115V would also give 1W at 28Vdc – if efficiency is 80% then 1W at 115Vac will give 0.8W at 28Vdc. I have changed the numbers above to a efficiency of 80%.
 
 == Weight ==
 
