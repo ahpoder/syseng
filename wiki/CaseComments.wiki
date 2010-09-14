@@ -13,6 +13,7 @@ The MWS will be provided as Government Furnished Equipment (GFE) and be physical
  * Kaj: Flares (burning metal often magnesium) is used as a countermeasure against being detected by a heat seeking misile.
  * Kaj: The Misile Warning System being a GFE is presumably very well documented regarding crew safety. How good is the documentation when considering the interface (hardware/software/mechanical) description
  * Kaj: What kind of documentation is required when delivering. Training in use of the equipment could be an issue.
+ * AHP: The abreviation EW stands for Electronic Warfare.
 
 
 
