@@ -22,6 +22,7 @@ http://syseng.googlecode.com/svn/trunk/system_drawing_power.jpg
 || Maximum 28VDC     ||                        || 250W    ||
 || Maximum 115VAC    ||                        || 700W    ||
 ||                   ||                        ||         ||         
+|| PCU efficiency    ||                        || 80%     ||
 || Conversion        || 1W 115VAC = 0,8W 28VDC ||         ||
 ||                   ||                        ||         ||         
 || Continous 115VAC  || 97 / 0,8 + 100         || 221,25W ||
