@@ -72,6 +72,7 @@ The MWS will be provided as Government Furnished Equipment (GFE) and be physical
 
 === UR-10 The system status on individual LRU level shall be provided by cockpit unit. ===
  * Lars: What is the meaning of LRU level?
+ * AHP LRU is Line Replacable Unit, and I figure it means the magazines, but we need to ask to be user.
 
 === UR-11 The cockpit unit shall be able to control power of dispensing system and MWS. ===
  * Kaj: What does controll mean ? Supervise  or ..  If supervise, what will the output of the processs be and under what conditions (automatic or semiautomatic)?
