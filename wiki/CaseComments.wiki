@@ -84,6 +84,7 @@ The MWS will be provided as Government Furnished Equipment (GFE) and be physical
  * Kaj: The pilot presumably initiates the  preprogrammmed dispensing program.
  * Kaj: A program is presumably a sequence defining a number of payloads to be dispensed in a predefined order and with a predefined timing.
  * Kaj: How many programs needs to be available. How complex do they need to be. How "long". Who are doing the programming.
+ * At present the cockpit unit has a PCMCIA slot which takes a Flash drive with the programs on it, and they are then loaded into the ECU (MWS) via the data bus. I figure we can do the same - and the flash drive can be used to load the ECU and cockpit unit as well - We might as well switch to USB, though.
 
 === UR-14 Semi automatic shall initiate an intelligent threat response upon consent from the pilot. ===
  * KPI: We need clarification on what "intelligent" means.
