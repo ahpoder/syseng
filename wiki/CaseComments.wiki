@@ -38,7 +38,7 @@ The MWS will be provided as Government Furnished Equipment (GFE) and be physical
  * Kaj: Dispensing payloads may limit on  the range of used weapons. Or the availability of directions to throw the payloads may have to be limited.
  * Kaj: A standard magazine must be defined. Weight loaded and unloaded for calculating forces in the system
 
-===  UR-4 ===
+=== UR-4 ===
  * Kaj: UR-4 is not in the list. For safety reasons a renumbering of the requirements is recommended in this early stage of development.
  * Lars: UR 4 is placed as the very last one – wrong yes but it is there and it looks oaso to me as it is placed at the wrong place here. Agree a renumbering would be a good idea and at the same time check if ii is correct that it is placed nder interface requirements.
 
@@ -92,6 +92,7 @@ The MWS will be provided as Government Furnished Equipment (GFE) and be physical
  * KPI: We need clarification on what "intelligent" means.
  * Lars: Initiate an intelligent threat response – this is not a definition that can be tested with only one result and it will depnd on the the persons that test it. Can be changed to a special test sequence that gives an feedback that shall be like the test specifies.
  * Kaj:I will presume that intelligent means preprogrammed.
+ * AHP: Yes, it means it should select a program based on the angle, velocity and type of the threat.
 
 === UR-15 Automatic mode shall initiate an intelligent threat response without pilot interaction. ===
  * KPI: We need clarification on what "intelligent" means.
