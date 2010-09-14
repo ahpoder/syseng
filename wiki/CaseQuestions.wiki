@@ -16,8 +16,17 @@ Someone pls try....   ;-(
  # What is the weight of a magazine and should it be included in the total weight of the POD? (max 270kg)
  # Is it a requirement that two dispenser can fire at the same time, or is a program allowed to fire one dispenser at a time? (1 dispenser fire and then 20ms later the next dispenser fire)
  # Can we save 2 DSSs by fixing which direction has 4 magazines and which has 2, or must all Dispensers have 2 DSSs, where we for power reasons only turn one for two of the directions?
+ # Not compromise current weapons systems (UR-3) - is that only with respect to EMC and the communication bus, or is it also the fact that the POD takes up space which could be used for weapons, changes the planes aerodynamic shape and weight and therefore its maneuverability?
+ # Details about the status and built in test results are missing (UR-6) - what exactly are we sending? (May require dedicated discretes to the POD to be able to comply) 
+ # Erasing sensitive data (UR-9) - what are the performance requirements? How fast? May we assume that power is supplied, or do we have to support an off-line solution (explosives)? Are we allowed to rely on encryption and just erase the key?
+ # The level of system status (UR-10) is not specified. Is it the remaining payload on each magazine? In each dispenser? Just that they are operational/empty? Misfire count? Sensor status? DSS status?
+ # The dimensions of the cockpit unit is missing, so we do not know the allowed size of the display for system status (UR-10).
  # 
+
 
 = Lower priority =
  # What are the dimensions of the magazine?
  # How many payloads do they hold?
+ # If we mount the POD under the left wing and dispense to the right, are we not dispensing into the plane?
+ # The hardware implemented safety interlock, is that a physical pin on the POD or/and a discrete PLANE ON GROUND?
+ 
