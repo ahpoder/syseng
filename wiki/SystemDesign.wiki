@@ -31,7 +31,7 @@ http://syseng.googlecode.com/svn/trunk/system_drawing_power.jpg
 
 As we "only" have 250W at 28VDC there is no way we can get 378 + 97, and we can therefore not fire all three dispensers at once. If we only fire one at a time we get 126 + 97, and that is below the 250W max.
 
-As for the maximum of 700W at 115VAC we come in just under it, yet as we cannot get the required power from the PCU, it is not relevant. The power requirement at 115VAC for where we "only" fire onedispenser at a time is 126 / 0,8 + 221,35 = 378,85, hvilket er langt under de 700W max. 
+As for the maximum of 700W at 115VAC we come in just under it, yet as we cannot get the required power from the PCU, it is not relevant. The power requirement at 115VAC for where we "only" fire onedispenser at a time is 126 / 0,8 + 221,35 = 378,85, which is far below the 700W max, which is important if we need some power for the air condition. 
 
 == Weight ==
 
