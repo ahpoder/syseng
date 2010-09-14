@@ -140,6 +140,7 @@ The MWS will be provided as Government Furnished Equipment (GFE) and be physical
 === UR-32 The pod shall be operational at temperatures of 95°C on outer skin and 102°C on leading edge for 25 minutes. ===
  * KPI: Are there any min. temp?
  * Lars: What is the normal temperature level of the POD? If the level are so high that the temperature level that the MWS see after UR 32 or UR 33 are above 70°C then additional climate control must be added.
+ * I guess they know that the ECU, ... wil generate so much heat that minimum temperature is never an issue, but how much heat does it generate. And what is the insulating quality of the POD? Can there be an outer temperature of 151°C and an inner temperature of <70°C?
 
 === UR-33 The pod shall be operational at temperatures of 134°C on outer skin and 151°C on leading edge for 3 minutes. ===
  * Lars: What is the normal temperature level of the POD? If the level are so high that the temperature level that the MWS see after UR 32 or UR 33 are above 70°C then additional climate control must be added.
