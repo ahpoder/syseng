@@ -1,5 +1,11 @@
 #summary Questions for Terma
 
+= General =
+
+ # In the requirements there is assumed access to many technical documents (MIL-1553B, body frame format, inertial format, F16 EW compatibility requirements, etc.). As detailed info of these are not necessary for the system requirements or overall design from an educational perspective, we would like to simply pretend they exist and that we are knowledgeable in them. Where the protocols directly relate to requirements we ask questions below as needed.
+ # No details about GUI design is present (light intensity, font, colour, ...), and we would like to postpone this or simply say that it is an existing and approved document. Is this acceptable?
+ # The dispensing programs are very complicated involving many factors such as thread type, direction velocity, leathality, etc. As we believe it is not feasible to program these on the plane, we would like to assume that a PC application exist that can create these programs, and that this application is not part of the project. Is this acceptable?
+
 = High priority =
  # What is the efficiency of the PCU?
  # What is the weight of a magazine and should it be included in the total weight of the POD? (max 270kg)
