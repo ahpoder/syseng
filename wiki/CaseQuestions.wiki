@@ -24,9 +24,7 @@ Someone pls try....   ;-(
  # Is it actually a requirement that two dispenser can fire at the "same time" (UR-20), i.e. within 20ms, or is a program allowed to fire one dispenser at a time? (1 dispenser fire and then 20ms later the next dispenser fire). Can two dispensers firing witin 40ms be said to be "at the same time"? Is there a maximum engagement time (or shots fired) so we can store the required effect in a capacitor?
  # Optimal coverage (UR-22) is untestable - what level of coverage is acceptable?
  # What is the insulating qualities of the POD and what is the heat-generation of the MWS? How do we know if extra cooling is needed?
- # What is an acceptable latency for navigation data coming from the mission computer to the MWS? If the MWS do not have direct access to the MIL1553 bus of the aircraft mission computer this will introduce an extra latency in copying in the cockpit unit, but if there are not two buss' then the aircraft mission computer must be configured to service the cockpit unit <-> MWS, as it is master (?).
- # 
-
+ # What is an acceptable latency for navigation data coming from the mission computer to the MWS? If the MWS do not have direct access to the MIL1553 bus of the aircraft mission computer this will introduce an extra latency in copying in the cockpit unit, but if there are not two buss' then the aircraft mission computer must be configured to service the cockpit unit to/from MWS, as it is required that the aircraft mission computer is master to ensure UR-3.
 
 = Lower priority =
  # What are the dimensions of the magazine?
