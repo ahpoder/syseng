@@ -97,6 +97,7 @@ The MWS will be provided as Government Furnished Equipment (GFE) and be physical
 === UR-15 Automatic mode shall initiate an intelligent threat response without pilot interaction. ===
  * KPI: We need clarification on what "intelligent" means.
  * Lars: Initiate an intelligent threat response – this is not a definition that can be tested with only one result and it will depnd on the the persons that test it. Can be changed to a special test sequence that gives an feedback that shall be like the test specifies.
+ * AHP: See UR-13
 
 === UR-16 The system shall provide a method of loading software to MWS. ===
  * KPI: The MWS is hosted by the POD and therefore SW can be loaded when detached from the aircraft using a protocol defined by us.
