@@ -10,3 +10,14 @@ Someone pls try....   ;-(
   * What other data/signals are handled by the system (UR   7,9, 10 ?,11 )
   * Dispensing  (UR 1,2,3
   * Internal signalling 
+
+= High priority =
+ # What is the efficiency of the PCU?
+ # What is the weight of a magazine and should it be included in the total weight of the POD? (max 270kg)
+ # Is it a requirement that two dispenser can fire at the same time, or is a program allowed to fire one dispenser at a time? (1 dispenser fire and then 20ms later the next dispenser fire)
+ # Can we save 2 DSSs by fixing which direction has 4 magazines and which has 2, or must all Dispensers have 2 DSSs, where we for power reasons only turn one for two of the directions?
+ # 
+
+= Lower priority =
+ # What are the dimensions of the magazine?
+ # How many payloads do they hold?
