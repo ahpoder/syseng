@@ -132,6 +132,7 @@ The MWS will be provided as Government Furnished Equipment (GFE) and be physical
  * Kaj: 5g is the accelleration forward (in the flight direction of the aeroplane - positive when starting) 2.5g is the deccelleration in the flight direction of the aeroplane - positive when breaking for landing. There seems to be a mess in the description of the test(a number presumably the aft accelleration is missing).
  * Lars: Specify a steady state acceleration level of 5g fore 2.5aft, 25g up and 11g down, but under "Precoditions -> Missile Warning System" is stated that the MWS is only qualified to 4g fore 2.5aft, 22g up and 10g down. A test of an assembled system can then not be done above 4g, 22g and 10g.
  * Kaj: We also need to know if  e.g. fore 4g and up 22g is present at the same time (Phytagoras :-)
+ * AHP: the 5g... for the POD is structural failure. We test this while the MWS is turned off. The 4g... for the MWS is testing that the MWS remain on and operational during this strain (and can counteract missiles) - how to test this in practice is a big question though.
 
 === UR-31 The total weight of pod cannot exceed 270 kg. ===
  * Lars: Bad grammar "Cannot exceed 270kg" – they probably want to say that the total weigth shall be maximum 270kg.
