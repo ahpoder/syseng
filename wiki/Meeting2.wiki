@@ -11,8 +11,8 @@
    * Formalisere interface, power, og de andre plain-tekst sektioner til rigtige krav. Dette vil lang hen ad vejen blive brugt til underlevenradør SOW krav vil jeg mene.
     * Her er input fra mødet omkring hvordan vi forholder os til dokumentation og viden som en rigtig underleverandør må forventes at beside fra start af, men som vi af gode grunde ikke har adgang eller tid til at indhente.
    * Tage input fra møde 17/09-10 kl.: 10-12 og formalisere krav.
-    * Herunder ligger oprettelse af cockpit unit UI, og et vigtigt input fra mødet er derfor om den må have et display? Hvor meget plads har vi at gøre med?
-    * Hvis vi skal lave et UI interface til Dispenser programmer så skal dette også beskrives, og det er derfor vigtigt at finde ud af på mødet om vi skal det.
+    * Herunder ligger oprettelse af cockpit unit UI, og et vigtigt input fra mødet er derfor om den må have et display? Hvor meget plads har vi at gøre med? Hvad skal vi vise?
+    * Hvis vi skal lave et UI interface til at oprette Dispenser programmer så skal dette også beskrives, og det er derfor vigtigt at finde ud af på mødet om vi skal det.
   * 3. Udføre Requirements analysis process
    * Yderligere formalisere requirements i SRS (her er input fra møde samt svar på email nødvendige).
    * Udsplitte seperate SOW krav til underleverandør.
