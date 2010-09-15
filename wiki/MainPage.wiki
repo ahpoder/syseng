@@ -47,7 +47,9 @@ The system requirements specification can be found in its different versions in 
 
 There may be some latency on this item, as the emails are copied in manually after a given email session have ended.
 
- * [http://syseng.googlecode.com/svn/trunk/email/300810_Company%20F_SysEng.pdf Exchanging emails]
- * [http://syseng.googlecode.com/svn/trunk/email/030910_CompanyFmedlemmer.pdf Company creation]
- * [http://syseng.googlecode.com/svn/trunk/email/040910_CompanyFcase.pdf Which case do Company F have?]
- * 
+ * [http://syseng.googlecode.com/svn/trunk/email/300810_Company%20F_SysEng.pdf 30/08-10: Exchanging emails]
+ * [http://syseng.googlecode.com/svn/trunk/email/030910_CompanyFmedlemmer.pdf 03/09-10: Company creation]
+ * [http://syseng.googlecode.com/svn/trunk/email/040910_CompanyFcase.pdf 04/09-10: Which case do Company F have?]
+ * [http://syseng.googlecode.com/svn/trunk/email/050910TheuseofWIkiforCompanyF.pdf 05/09-10: Creating Wiki]
+ * [http://syseng.googlecode.com/svn/trunk/email/050910_SV.pdf 05/09-10: Wiki problems]
+ * [http://syseng.googlecode.com/svn/trunk/email/060910_CompanyFProjectplanudkast.pdf 06/09-10: Project plan]
