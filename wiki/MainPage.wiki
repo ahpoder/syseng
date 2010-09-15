@@ -46,3 +46,8 @@ The system requirements specification can be found in its different versions in 
 = Email communication =
 
 There may be some latency on this item, as the emails are copied in manually after a given email session have ended.
+
+ * [http://syseng.googlecode.com/svn/trunk/email/300810_Company%20F_SysEng.pdf Exchanging emails]
+ * [http://syseng.googlecode.com/svn/trunk/email/030910_CompanyFmedlemmer.pdf Company creation]
+ * [http://syseng.googlecode.com/svn/trunk/email/040910_CompanyFcase.pdf Which case do Company F have?]
+ * 
