@@ -25,4 +25,5 @@
  # What are the dimensions of the magazine?
  # How many payloads do they hold?
  # The hardware implemented safety interlock (UR-8), is that a physical pin on the POD or/and a discrete PLANE ON GROUND?
+ # Control power - dows that mean we should be able to intelligently power down parts of the MWS, or should we just be able to turn it on and off?
  
