@@ -5,7 +5,7 @@
 = Agenda = 
 
  * Gennemgang af spørgsmål, hvis det findes nødvendigt (timeboxed 15min)
- * Aftale nedbrydning af opgaver:
+ * Aftale nedbrydning af opgaver (min anbefaling er vist herunder):
   * 1. Aftale næste deadline
   * 2. Udføre Stakeholder requirement definition process
    * Formalisere interface, power, og de andre plain-tekst sektioner til rigtige krav. Dette vil lang hen ad vejen blive brugt til underlevenradør SOW krav vil jeg mene.
