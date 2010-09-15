@@ -15,7 +15,7 @@
  # Erasing sensitive data (UR-9) - what are the performance requirements? How fast? May we assume that power is supplied, or do we have to support an off-line solution (explosives)? Are we allowed to rely on encryption and just erase the key? Where is the sensitive data stored, only in the MWS or in both the MWS and cockpit unit?
  # The level of system status (UR-10) is not specified. Is it the remaining payload on each magazine? In each dispenser? Just that they are operational/empty? Misfire count? Sensor status? DSS status?
  # The dimensions of the cockpit unit is missing, so we do not know the allowed size of the display for system status (UR-10).
- # How do the pilot select the program to fire when using manual dispense (UR-13)? Is it to be selected on the cockpit unit?
+ # How do the pilot select the program to fire when using manual dispense (UR-13)? Is it to be selected on the cockpit unit? How many programs can there by all together to choose from?
  # Is it actually a requirement that two dispenser can fire at the "same time" (UR-20), i.e. within 20ms, or is a program allowed to fire one dispenser at a time? (1 dispenser fire and then 20ms later the next dispenser fire). Can two dispensers firing witin 40ms be said to be "at the same time"? Is there a maximum engagement time (or shots fired) so we can store the required effect in a capacitor?
  # Optimal coverage (UR-22) is untestable - what level of coverage is acceptable?
  # What is the insulating qualities of the POD and what is the heat-generation of the MWS? How do we know if extra cooling is needed?
