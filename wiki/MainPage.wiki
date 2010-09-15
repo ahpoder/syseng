@@ -42,3 +42,7 @@ The system requirements specification can be found in its different versions in 
 = Meetings =
 
  * [Meeting1 Phone meeting 11/10-09]
+
+= Email communication =
+
+There may be some latency on this item, as the emails are copied in manually after a given email session have ended.
