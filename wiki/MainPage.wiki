@@ -26,7 +26,9 @@ While working with the case some questions have arisen and these have been formu
 
 = System Requirements Specifications =
 
-The system requirements specification can be found in its different versions in Subversion.
+The system requirements specification is developed in the below document, and the latest released version (as well as its history) can be found in Subversion
+
+[SystemRequirementSpecification]
 
 = Ongoing activities =
 
