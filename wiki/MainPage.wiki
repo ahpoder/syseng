@@ -41,8 +41,9 @@ The system requirements specification can be found in its different versions in 
 
 = Meetings =
 
- * [Meeting1 Phone meeting 11/10-09]
- * [Meeting2 Pre-Terma meeting at IHA 17/10-09]
+ * [Meeting1 Phone meeting 11/09-09]
+ * [Meeting2 Pre-Terma meeting at IHA 17/09-09]
+ * [Meeting3 Terma case meeting at IHA 17/09-09]
 
 = Email communication =
 
