@@ -30,14 +30,15 @@ The system requirements specification can be found in its different versions in 
 
 = Ongoing activities =
 
- # Reading of cases and curriculum. 
- # Add comments to Terma case requirements on [CaseComments]
- # Formulate questions for Terma
+ # Reading of cases and curriculum.
+ # Create system requirements [SystemRequirementSpecification]
 
 = Completed activities =
 
  # Create first draft system drawing from requirements (see subversion or [SystemDesign])
  # Create Wiki structure
+ # Add comments to Terma case requirements on [CaseComments]
+ # Formulate questions for Terma
 
 = Meetings =
 
