@@ -26,3 +26,6 @@
  * Det blev besluttet at anvende sss-did dokument som template (checkliste)
  * AHP skriver MoM efter Terma case mødet i aften og sender email til projekt gruppen så hurtigt så muligt.
  * AHP laver en Wiki "template" til en SRS/SRD som der kan fyldes i efter møde og MoM. Denne er ikke en endelig platform, men bare noget vi har til at fylde i indtil et endelig format bliver vedtaget.
+  * SRS skal indeholde trace til input, og der vil blive slået en ny version når input ændre sig.
+  * Den første SRS vil være en formalisering af de plain-tekst beskrivelser vi har som krav, samt rettelse af de funktionelle krav der er så de bliver systemkrav. SAmtidig vil de svar der kommer fra Terma mødet blive inkoopereret i kravene. Dette vil blive kaldt Stakeholder Requirement Definition versionen.
+  * Derefter vil ber blive lavet en ny version med den tidligere som input samt evt. opdaterede dokumenter, og den vil følge Requirement Analysis processen.
