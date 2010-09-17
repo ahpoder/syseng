@@ -24,6 +24,10 @@
   * Der skal ikke laves nogen ConOps.
   * En 11 siders SRD (inklusiv alt (forside, ...)) er en god størrelse.
   * Det er helt normalt at der er kommentarer og ændringer til en SRR, så det behøver ikke være perfekt.
+  * For at klarificere blev der udspecificeret at:
+   * Der skal IKKE afholdes SRR med underleverandør, kun CDR.
+   * Der skal altså afholdes 1 SRR og 2 CDR.
+   * De krav der kommer fra underleverandør skal være systemkrav, men hvis der er upræcise områder skal der bare laves antagelser og sendes en email til ´prime contractor.
  * Terma gik igennem alle gruppers spørgsmål og svarene kan læses på: [http://code.google.com/p/syseng/wiki/CaseQuestions Terma case questions and answers] as well as on CampusNET where the answers to other groups questions may also be read.
   * The Dispenser in the case is actually a standard NATO dispenser, and there is a whole standard around it.
   * Det er tilladt at vi f.eks. designer en ny DSS der kan styre alle magasiner (se cost område) for derved at spare vægt og strøm.
