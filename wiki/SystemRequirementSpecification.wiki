@@ -21,17 +21,9 @@ TBS: Requirement awaiting input from customer or other.<br/>
 
 = System Requirement Specification =
 
-|| ID     
-|| Requirement 
-|| Trace 
-|| Test 
-|| Completion ||
+|| ID || Requirement || Trace || Test || Completion ||
 
-|| FR-01  
-|| The system shall not cause any cause electrostatic interference or other hardware noise affecting the existing EW systems on the plane, as specified by the F-16 EW Compatibility standard. 
-|| UR-3 
-|| The system must be tested by an independent testing facility certified to do F-16 EW compatibility tests.
-|| TBR ||
+|| FR-01 || The system shall not cause any cause electrostatic interference or other hardware noise affecting the existing EW systems on the plane, as specified by the F-16 EW Compatibility standard. || UR-3 || The system must be tested by an independent testing facility certified to do F-16 EW compatibility tests. || TBR ||
 
 == Requirement relating to the POD structure ==
 
