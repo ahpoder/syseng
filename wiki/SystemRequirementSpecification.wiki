@@ -8,10 +8,10 @@ This System requirement specification (matrix) is a place to put the requirement
 
 == ID ==
 
-FR-n indicates a functional requirement with ID n.
-NR-n indicates a non-functional requirement with ID n.
-PR-n indicates a performance requirement with ID n.
-AC-n indicates an architectual contraint with ID n.
+FR-n indicates a functional requirement with ID n.<br/>
+NR-n indicates a non-functional requirement with ID n.<br/>
+PR-n indicates a performance requirement with ID n.<br/>
+AC-n indicates an architectual contraint with ID n.<br/>
 
 == Completion ==
 
