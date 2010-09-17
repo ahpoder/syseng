@@ -35,4 +35,4 @@ TBS: Requirement awaiting input from customer or other.<br/>
 == Requirement relating to the POD structure ==
 
 
-|| ID     || Requirement || Trace || Test || Completion ||
+|| ID     || Requirement || Trace || Test || Test method || Completion ||
