@@ -1,0 +1,30 @@
+#summary The System requirement specification under developement
+
+= Introduction =
+
+This System requirement specification (matrix) is a place to put the requirements and to keep tracability to parent requirements, documents and testing. The actual SRS can be found in subversion following the sss-did structure.
+
+= Description of acronyms and use =
+
+== ID ==
+
+FR-n indicates a functional requirement with ID n
+NR-n indicates a non-functional requirement with ID n
+PR-n indicates a performance requirement with ID n
+AC-n indicates an architectual contraint with ID n
+
+== Completion ==
+
+TBD: Requirement not done, awaiting completion.
+TBR: Requirement done, but not reviewed within the project team
+TBS: Requirement awaiting input from customer or other.
+
+= System Requirement Specification =
+
+|| ID     || Requirement || Trace || Test || Completion ||
+|| FR-01  ||              ||       ||      ||          ||
+
+== Requirement relating to the POD structure ==
+
+
+|| ID     || Requirement || Trace || Test || Completion ||
