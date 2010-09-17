@@ -8,16 +8,16 @@ This System requirement specification (matrix) is a place to put the requirement
 
 == ID ==
 
-FR-n indicates a functional requirement with ID n
-NR-n indicates a non-functional requirement with ID n
-PR-n indicates a performance requirement with ID n
-AC-n indicates an architectual contraint with ID n
+ FR-n indicates a functional requirement with ID n
+ NR-n indicates a non-functional requirement with ID n
+ PR-n indicates a performance requirement with ID n
+ AC-n indicates an architectual contraint with ID n
 
 == Completion ==
 
-TBD: Requirement not done, awaiting completion.
-TBR: Requirement done, but not reviewed within the project team
-TBS: Requirement awaiting input from customer or other.
+ TBD: Requirement not done, awaiting completion.
+ TBR: Requirement done, but not reviewed within the project team
+ TBS: Requirement awaiting input from customer or other.
 
 = System Requirement Specification =
 
