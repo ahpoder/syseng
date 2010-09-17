@@ -11,6 +11,7 @@
 
  * Rune: Gennemgang af generelle spørgsmål set fra processens side
  * Terma: Gennemgang af spørgsmål
+ * Q&A
 
 = Minutes of meeting =
  * Rune gik igennem de generelle spørgsmål og kom med forskellige input:
