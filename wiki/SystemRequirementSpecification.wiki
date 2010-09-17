@@ -19,6 +19,12 @@ TBD: Requirement not done, awaiting completion.<br/>
 TBR: Requirement done, but not reviewed within the project team.<br/>
 TBS: Requirement awaiting input from customer or other.<br/>
 
+= Input documents =
+
+ * Terma case document v1 (subversion)
+ * Terma case comments v1 (subverison)
+ * Terma case questions and answers v1 (subversion)
+
 = System Requirement Specification =
 
 || ID || Requirement || Trace || Test || Test method || Completion ||
