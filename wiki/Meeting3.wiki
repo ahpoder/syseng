@@ -22,4 +22,8 @@
    * Hvis der er dele vi finder meget besværlige og irrelevante for læringen skal vi bare skrive udeladt med vilje og hvorfor.
   * Det er OK at lave antagelser.
  * Terma gik igennem alle gruppers spørgsmål og svarene kan læses på: [http://code.google.com/p/syseng/wiki/CaseQuestions Terma case questions and answers] as well as on CampusNET where the answers to other groups questions may also be read.
-  * Det er tilladt at vi designer en ny DSS der kan styre alle magasiner (se cost område) for derved at spare vægt.
+  * The Dispenser in the case is actually a standard NATO dispenser, and there is a whole standard around it.
+  * Det er tilladt at vi f.eks. designer en ny DSS der kan styre alle magasiner (se cost område) for derved at spare vægt og strøm.
+  * Body frame format is a direction as seen from the planes angle where right in front of the plane is 0 degrees and behind the plane is 180 degrees.
+  * When describing "optimal" coverage a drawing with the plane and which angles are covered would be a good idea.
+  * Inertial format is North/Shoth
