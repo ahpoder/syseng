@@ -21,6 +21,9 @@
   * sss-did er et forslag til hvordan en SRS kan se ud. Vi skal bare skrive NA til alle de dele vi ikke vil lave. sss-did er også kun et forslag og vi må gerne bruge et andet layout.
    * Hvis der er dele vi finder meget besværlige og irrelevante for læringen skal vi bare skrive udeladt med vilje og hvorfor.
   * Det er OK at lave antagelser.
+  * Der skal ikke laves nogen ConOps.
+  * En 11 siders SRD (inklusiv alt (forside, ...)) er en god størrelse.
+  * Det er helt normalt at der er kommentarer og ændringer til en SRR, så det behøver ikke være perfekt.
  * Terma gik igennem alle gruppers spørgsmål og svarene kan læses på: [http://code.google.com/p/syseng/wiki/CaseQuestions Terma case questions and answers] as well as on CampusNET where the answers to other groups questions may also be read.
   * The Dispenser in the case is actually a standard NATO dispenser, and there is a whole standard around it.
   * Det er tilladt at vi f.eks. designer en ny DSS der kan styre alle magasiner (se cost område) for derved at spare vægt og strøm.
