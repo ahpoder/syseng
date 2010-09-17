@@ -21,7 +21,7 @@
   * sss-did er et forslag til hvordan en SRS kan se ud. Vi skal bare skrive NA til alle de dele vi ikke vil lave. sss-did er også kun et forslag og vi må gerne bruge et andet layout.
    * Hvis der er dele vi finder meget besværlige og irrelevante for læringen skal vi bare skrive udeladt med vilje og hvorfor.
   * Det er OK at lave antagelser.
-  * Der skal ikke laves nogen 'ConOps'.
+  * Der skal ikke laves nogen `ConOps`.
   * En 11 siders SRD (inklusiv alt (forside, ...)) er en god størrelse.
   * Det er helt normalt at der er kommentarer og ændringer til en SRR, så det behøver ikke være perfekt.
   * For at klarificere blev der udspecificeret at:
