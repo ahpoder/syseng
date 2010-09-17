@@ -15,14 +15,23 @@ AC-n indicates an architectual contraint with ID n.<br/>
 
 == Completion ==
 
-TBD: Requirement not done, awaiting completion.
-TBR: Requirement done, but not reviewed within the project team.
-TBS: Requirement awaiting input from customer or other.
+TBD: Requirement not done, awaiting completion.<br/>
+TBR: Requirement done, but not reviewed within the project team.<br/>
+TBS: Requirement awaiting input from customer or other.<br/>
 
 = System Requirement Specification =
 
-|| ID     || Requirement || Trace || Test || Completion ||
-|| FR-01  ||              ||       ||      ||          ||
+|| ID     
+|| Requirement 
+|| Trace 
+|| Test 
+|| Completion ||
+
+|| FR-01  
+|| The system shall not cause any cause electrostatic interference or other hardware noise affecting the existing EW systems on the plane, as specified by the F-16 EW Compatibility standard. 
+|| UR-3 
+|| The system must be tested by an independent testing facility certified to do F-16 EW compatibility tests.
+|| TBR ||
 
 == Requirement relating to the POD structure ==
 
