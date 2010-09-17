@@ -13,3 +13,12 @@
  * Terma: Gennemgang af spørgsmål
 
 = Minutes of meeting =
+ * Rune gik igennem de generelle spørgsmål og kom med forskellige input:
+  * Det forventes at der bruges 32 timer på casen, men hvis man ikke tager på udflugten forventes der 30 timer ekstra - se endvidere powerpoint på CamputNET
+  * Det giver ekstra point hvis man kort skriver hvilke andre dokumenter man burde have lavet for at kunne have et rigtigt input til en SRR, samt hvilke dele man har undladt i selve SRS.
+   * Lad være med at fokusere på at skrive nogle rigtig gode dokumenter, det er processen der er vigtig.
+  * Projekt-planen skal bare være en tidslinie med de store milestones som viser hvordan vi har tænkt os at komme i mål med projektet.
+  * sss-did er et forslag til hvordan en SRS kan se ud. Vi skal bare skrive NA til alle de dele vi ikke vil lave. sss-did er også kun et forslag og vi må gerne bruge et andet layout.
+   * Hvis der er dele vi finder meget besværlige og irrelevante for læringen skal vi bare skrive udeladt med vilje og hvorfor.
+  * Det er OK at lave antagelser.
+ * Terma gik igennem alle gruppers spørgsmål og svarene kan læses på:
