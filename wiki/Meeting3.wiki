@@ -14,6 +14,7 @@
 
 = Minutes of meeting =
  * Rune gik igennem de generelle spørgsmål og kom med forskellige input:
+  * Det hele kommer til at ligge på CamputNET.
   * Det forventes at der bruges 32 timer på casen, men hvis man ikke tager på udflugten forventes der 30 timer ekstra - se endvidere powerpoint på CamputNET
   * Det giver ekstra point hvis man kort skriver hvilke andre dokumenter man burde have lavet for at kunne have et rigtigt input til en SRR, samt hvilke dele man har undladt i selve SRS.
    * Lad være med at fokusere på at skrive nogle rigtig gode dokumenter, det er processen der er vigtig.
