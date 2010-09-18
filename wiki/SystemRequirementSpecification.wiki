@@ -41,8 +41,8 @@ Any document in Wiki may be used as input, just make a reference and create a PD
 
 = Released SRS versions =
 
-[[Anchor about]]
-= Currently working on =
+
+<a name="about">= Currently working on =</a>
 
  * Lars: Indledende afsnit i SRS
  * Kaj: UR11-UR16,UR20,UR21
