@@ -15,18 +15,16 @@ The following guidelines must be adhered to at all times:
  # It is mandatory to *ALWAYS* verify that when overriding or modifying requirements in the main SRS from subversion that others have not already modified or changed them since you decided to change them, i.e. do not override others changes unless you mean to.
  # That the time between update (2) and commit (4) are *as short as possible*, as the longer the time is the higher the probability is that someone else committed between the update and commit.
 
-This System requirement specification (matrix) is a place to put the requirements and to keep tracability to parent requirements, documents and testing. The actual SRS can be found in subversion following the sss-did structure.
+= Description of acronyms =
 
-= Description of acronyms and use =
-
-== ID ==
+== Requirements ID ==
 
 FR-n indicates a functional requirement with ID n.<br/>
 NR-n indicates a non-functional requirement with ID n.<br/>
 PR-n indicates a performance requirement with ID n.<br/>
 AC-n indicates an architectual contraint with ID n.<br/>
 
-== Completion ==
+== Requirements completion level ==
 
 TBD: Requirement not done, awaiting completion.<br/>
 TBR: Requirement done, but not reviewed within the project team.<br/>
@@ -34,9 +32,16 @@ TBS: Requirement awaiting input from customer or other.<br/>
 
 = Input documents =
 
- * Terma case document v1 (subversion)
- * Terma case comments v1 (subverison)
- * Terma case questions and answers v1 (subversion)
+Any document in Wiki may be used as input, just make a reference and create a PDF version in subversion, and that will be the actual reference. Some documents already have PDF versions:
+
+ * Terma case document v1
+ * Terma case comments v1
+ * Terma case meeting v1
+ * Terma case questions and answers v1
+
+
+= Below is deprecated and will be moved to subversion =
+
 
 = System Requirement Specification =
 
