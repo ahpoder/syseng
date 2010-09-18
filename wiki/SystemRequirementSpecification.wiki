@@ -39,6 +39,13 @@ Any document in Wiki may be used as input, just make a reference and create a PD
  * Terma case meeting v1
  * Terma case questions and answers v1
 
+= Released SRS versions =
+
+= Currently working on =
+
+ * Lars: Indledende afsnit i SRS
+ * Kaj: UR11-UR16,UR20,UR21
+ * Kenneth: Påbegynder SOW
 
 = Below is deprecated and will be moved to subversion =
 
