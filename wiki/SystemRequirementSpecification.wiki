@@ -4,19 +4,16 @@
 
 At first we attempted to place the SRS in Wiki, but it is simply not a good place for tables with text of a certain length in it. We have therefore moved the SRS to subversion, which should be edited in the following manor:
 
-# Write the new requirement or the modification to the requirement in a new (temporary) document.
-# Update from subversion so you are sure the SRS is of the newest version.
-# Merge the new requirement or the modification from the temporary document to the SRS form subversion.
-# Commit the real SRS to subversion. If the commit fails then step 2 - 4 must be repeated until it succeeds.
+ # Write the new requirement or the modification to the requirement in a new (temporary) document.
+ # Update from subversion so you are sure the SRS is of the newest version.
+ # Merge the new requirement or the modification from the temporary document to the SRS form subversion.
+ # Commit the real SRS to subversion. If the commit fails then step 2 - 4 must be repeated until it succeeds.
 
 The following guidelines must be adhered to at all times:
 
-# One must *NEVER* work directly in the main SRS from subversion, only merge to it.
-# It is mandatory to *ALWAYS* verify that when overriding or modifying requirements in the main SRS from subversion that others have not already modified or changed them since you decided to change them, i.e. do not override others changes unless you mean to.
-# That the time between update (2) and commit (4) At tiden mellem update (1) og checkin (3) er SÅ KORT SÅ MULIGT,
-specielt hvis man bruger lock, da man så blokerer for andre brugere,
-men også generelt, da længere tid giver større risiko for at der har
-været et commit i mellemtiden.
+ # One must *NEVER* work directly in the main SRS from subversion, only merge to it.
+ # It is mandatory to *ALWAYS* verify that when overriding or modifying requirements in the main SRS from subversion that others have not already modified or changed them since you decided to change them, i.e. do not override others changes unless you mean to.
+ # That the time between update (2) and commit (4) are *as short as possible*, as the longer the time is the higher the probability is that someone else committed between the update and commit.
 
 This System requirement specification (matrix) is a place to put the requirements and to keep tracability to parent requirements, documents and testing. The actual SRS can be found in subversion following the sss-did structure.
 
