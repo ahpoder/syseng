@@ -48,19 +48,4 @@ Any document in Wiki may be used as input, just make a reference and create a PD
  * Lars: Afsnit 3.1 States and modes - starter med oversigtstegninger og lidt tekst, så må vi snakke om det er korrekt og passer med de requirements der evt. kommer ud af yderligere behandling af requirements.
  * Kaj: UR11-UR16,UR20,UR21
  * Kenneth: Påbegynder SOW
- * AHP: RU1 - UR10
-
-= Below is deprecated and will be moved to subversion =
-
-
-= System Requirement Specification =
-
-|| ID || Requirement || Trace || Test || Test method || Completion ||
-|| FR-01 || The system shall not cause any cause electrostatic interference or other hardware noise affecting the existing EW systems on the plane, as specified by the F-16 EW Compatibility standard. || UR-3 || The system must be tested by an independent testing facility certified to do F-16 EW compatibility tests. || Test || TBR ||
-|| FR-02 || The system shall not cause a load of more than 15% on the avionics bus at any time during operation. || UR-3 || The required update to the avionics bus is inspected to ensure that this requirement is adhered to (the Aircraft Avionics computer is Master, and the MIL-1553B is a pure Master-slave, so it has 100% control of the communication usage) || Inspection || TBR ||
-
-
-== Requirement relating to the POD structure ==
-
-
-|| ID     || Requirement || Trace || Test || Test method || Completion ||
+ * AHP: UR1 - UR10 (done), UR30-UR33
