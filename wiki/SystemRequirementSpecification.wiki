@@ -48,4 +48,4 @@ Any document in Wiki may be used as input, just make a reference and create a PD
  * Lars: Afsnit 3.1 States and modes - starter med oversigtstegninger og lidt tekst, så må vi snakke om det er korrekt og passer med de requirements der evt. kommer ud af yderligere behandling af requirements.
  * Kaj: UR11-UR16,UR20,UR21
  * Kenneth: Påbegynder SOW
- * AHP: UR1 - UR10 (done)
+ * AHP: UR1 - UR10
