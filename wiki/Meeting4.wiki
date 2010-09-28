@@ -47,17 +47,17 @@ Action items:
  
 The action items was distributed as follow:
 
-Company F
+== Company F ==
  * Remember in future documentation. No update of SRS required:
   * 1, 2, 4, 5, 6, 7, 10, 11, 12, 13
  * Update in current SRS and send for approval with Terma
   * 8, 9
 
-Terma
+== Terma ==
  * Remember in future documentation. No update of case required:
   * 3
 
-Quality assurance
+== Quality assurance ==
  * None
 
 The SRS is approved, once action item 8 and 9 has been completed. 
