@@ -5,7 +5,7 @@
  * Tommy Vestermark
  * xxx
  
-== Qualit Assurance ==
+== Quality Assurance ==
  * Rune Jacobsen
  
 == Company F ==
@@ -20,14 +20,14 @@ The meeting is a System Requirement Review, where the following documents will b
 
  * SRS version A
  * RTM version A
- * Project plan version A
+ * Project plan version 0.4
 
 = Minutes of meeting =
 
 It was decided to focus on the action item in the minutes.
 
 Action items:
- # The frot page of the SRS is missing vital information
+ # The front page of the SRS is missing vital information
   * Company name
   * Document version
   * Document date
