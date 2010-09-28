@@ -1,0 +1,63 @@
+#summary Minutes of meeting Terma SRR meeting at IHA 28/09-10
+
+= Partisipents = 
+== Terma ==
+ * Tommy Vestermark
+ * xxx
+ 
+== Qualit Assurance ==
+ * Rune
+ 
+== Company F ==
+ * Kenneth
+ * Kaj
+ * Lars
+ * Anders
+
+= Agenda = 
+
+The meeting is a System Requirement Review, where the following documents will be reviewd:
+
+ * SRS version A
+ * RTM version A
+ * Project plan version A
+
+= Minutes of meeting =
+
+It was decided to focus on the action item in the minutes.
+
+Action items:
+ # The frot page of the SRS is missing vital information
+  * Company name
+  * Document version
+  * Document date
+  * Internal document number (Company F document ID and revision number).
+ # The plain text parts of the SRS should avoid using the work "shall", as it then becomes difficult to distinguish between general info and a requirement. The INFO sections in the requirements was generally thought of as a good idea.
+ # The Terma case is missing a revision number, and Company F's handling using the date was considered a good solution.
+ # It was questioned if the requirements was not too stringent, especially the performance requirements. It is important to not invent requirements, and to not set more stringent requirements than is necesarry. Basically it is a matter of "guessing" the most lenient value the customer will accept and then use that, as otherwise one is stuck with a requirement one must enforce, even if the customer would have been fine with a half as restrictive requirement, e.g. the 100ms deletion of encryption key. If the customer is fine with 10 seconds, why not use that value. Basically one should do a quick analysis as to what the probable worst case time is, and then add a little, while at the same time considering is the customer would be OK with it - again, the object is to find the highest value that do not insult the customer.
+ # The 28VDC power requirements (SR-74) under Design and construction constraints should be moved to external interfaces.
+ # The Mounting requirements (SR-76, SR-77, SR-78) under Design and construction constraints should be moved to external interfaces.
+ # Any interface, be it mechanical or signal, should be located under interfaces.
+ # Expand requirement SR-86 about missile coverage to include a more detailed description of the supplied coverage. In real life one would do a coverage report and either enclode or use as inspiration. It is not expected that we do a coverage report, but only that we expand on the covered sections.
+ # Restrict requirement SR-14 about the supported "intelligent" threat response so it is more clear what is possible, i.e. which parameters the customer can set and how many, etc.
+ # The Quality provisions for SR-52 is problematic, as code inspection is generally difficult for the customer to verify, and the verification of this requirement, relating to zerorizing of the sensitive data descryption key, should be updated to be a test instead of a code inspection - what is required to test is more that the key is in fact erased with-in a resonable amount of time, e.g. 5 seconds, and then let the compliance to DOD standards and the 100ms probability test be left as inspection.
+ # The project plan is missing the status of the project. It should be indicated if we are on schedule and how far we are with each of the assignments, e.g. the SOW for the subcontrator. It was mentioned that Microsoft projects can do this.
+ # It was mentioned by Company F that we are 0.2kg over the allowed limit. Terma accepted this extra weight, and further proposed to keep the allowed weight open for an increase of up to 10kg, pending an approval of the final weight.
+ # The requirements are generally over-designed, and a less specific SRS would have been acceptable. Terma mentioned that one must be very careful not to create more requirements than is necesarry, as each requirements cost money.
+ 
+The action items was distributed as follow:
+
+Company F
+ * Remember in future documentation. No update of SRS required:
+  * 1, 2, 4, 5, 6, 7, 10, 11, 12, 13
+ * Update in current SRS and send for approval with Terma
+  * 8, 9
+
+Terma
+ * Remember in future documentation. No update of case required:
+  * 3
+
+Quality assurance
+ * None
+
+The SRS is approved, once action item 8 and 9 has been completed. 
