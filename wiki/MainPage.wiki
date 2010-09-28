@@ -47,6 +47,7 @@ The system requirements specification is developed in the below document, and th
  * [Meeting1 Phone meeting 11/09-09]
  * [Meeting2 Pre-Terma meeting at IHA 17/09-09]
  * [Meeting3 Terma case meeting at IHA 17/09-09]
+ * [Meeting4 Terma SRR at IHA 28/09-09]
 
 = Email communication =
 
