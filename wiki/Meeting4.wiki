@@ -50,7 +50,7 @@ The action items was distributed as follow:
 == Company F ==
  * Remember in future documentation. No update of SRS required:
   * 1, 2, 4, 5, 6, 7, 10, 11, 12, 13
- * Update in current SRS and send for approval with Terma
+ * Update in current SRS and send for approval with Terma:
   * 8, 9
 
 == Terma ==
