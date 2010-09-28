@@ -9,10 +9,10 @@
  * Rune Jacobsen
  
 == Company F ==
- * Kenneth
- * Kaj
- * Lars
- * Anders
+ * Kenneth Pihl
+ * Kaj N. Nielsen
+ * Lars Munch
+ * Anders H. Poder
 
 = Agenda = 
 
