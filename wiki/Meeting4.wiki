@@ -3,7 +3,7 @@
 = Partisipents = 
 == Terma ==
  * Tommy Vestermark
- * xxx
+ * Morten Høyer-Nielsen
  
 == Quality Assurance ==
  * Rune Jacobsen
