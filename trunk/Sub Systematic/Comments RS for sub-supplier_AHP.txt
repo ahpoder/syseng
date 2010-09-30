@@ -1,0 +1,11 @@
+Comments for Dismounted COP SOW revision 1.0 from Company E:
+
+TPOD-0001: Every existing is a very broad term, and may include interfaces that is protected by higher security classification than we posses. Maybe there is a list of communication systems we should interface to, and their specifications. We can naturally invent a list. Also what is the definition of interface to? Must we be able to cover all parts of the interfaces, or just a subsection? The interfaces in the domain may have very different purposes.
+
+TPOD-0003: Impossible. At any time would also mean when the device is out of power or damaged. A better requirement is "at any time while the unit is operational", and then specify somewhere else what operational entails.
+
+TPOD-0012: Impractical. Some functionality, like administration and configuration of the device as well as changing security settings is unlikely to be done in the field, and it would be better to specify that the funtionality we have to support is end user functionality.
+
+TPOD-0014: Impractical. Some operations use more power than others, e.g. FOTA and it is unreasonable that the battery should be able to handle 12 hours of continous FOTA. A better requirement would be normal operations, and then specify what normal is somewhere else. 
+
+TPOD-0016: What is the purpose of this design constraint?
