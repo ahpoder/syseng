@@ -1,0 +1,110 @@
+fraKenneth Pihl <kennethpihl@gmail.com>Tilsaid@alizadeh.dkCcAnders Hvidgaard Poder <ahpoder@gmail.com>,
+Kaj Norman Nielsen <knn@aarhustech.dk>,
+Lars Munch Privat <lars@k-munch.dk>dato29. sep. 2010 23.01emneSubcontract Terma casesendt afgmail.comskjul detaljer 29. sep. (8 dage siden) Hej company G
+
+Hermed subcontract på Terma casen.
+
+Mvh Company F
+
+==========================================================================
+
+FraSaid <said@alizadeh.dk>TilKenneth Pihl <kennethpihl@gmail.com>CcAnders Hvidgaard Poder <ahpoder@gmail.com>,
+Kaj Norman Nielsen <knn@aarhustech.dk>,
+Lars Munch Privat <lars@k-munch.dk>dato4. okt. 2010 16.08emneRe: Subcontract Terma caseskjul detaljer 4. okt. (3 dage siden) Hej Kenneth
+Tak for din e-mail. Hermed bekræfter jeg modtagelsen af jeres Requierment specification.
+Jeg vender hurtigst tilbage om en evt. review på torsdag.
+Mvh
+Said, Gruppe G
+
+
+
+
+fraKenneth Pihl <kennethpihl@gmail.com>tilSaid <said@alizadeh.dk>ccAnders Hvidgaard Poder <ahpoder@gmail.com>,
+Kaj Norman Nielsen <knn@aarhustech.dk>,
+Lars Munch Privat <lars@k-munch.dk>dato4. okt. 2010 20.20emneRe: Subcontract Terma casesendt afgmail.comskjul detaljer 4. okt. (3 dage siden) Hej Said
+
+Jeg fik det ikke nævnt i forige mail men Jeg regner med at vi kan klare reviewet pr. mail?
+
+Mvh
+Kenneth
+
+======================================================================
+
+fraSaid <said@alizadeh.dk>tilKenneth Pihl <kennethpihl@gmail.com>cc"Jørgen V. Hansen" <jorgenvh@gmail.com>,
+bodil bruun <bodil_bruun@hotmail.com>,
+Klaus <klaus@kolle.dk>,
+Morten <morten@hih.au.dk>dato4. okt. 2010 20.45emneRe: Re: Subcontract Terma caseskjul detaljer 4. okt. (3 dage siden) Hej Kenneth
+Det skulle gerne kunne lade sig gøre. Men vi har også gode erfaringer med møder via Skype.
+Vi holder et møde i aften og som nævnt før, vender jeg hurtigst tilbage, når vi har en afklaring på det. 
+
+Mvh
+Said
+
+========================================================================
+
+fraSaid <said@alizadeh.dk>tilKenneth Pihl <kennethpihl@gmail.com>ccJørgen <jvh@kamstrup.dk>,
+bodil bruun <bodil_bruun@hotmail.com>,
+"revision-aarhus.dk Kaj Kromann Lashewski - Revision Århus" <Kla@>,
+Morten <morten@hih.au.dk>dato5. okt. 2010 23.23emneRe: Re: Subcontract Terma caseskjul detaljer 5. okt. (2 dage siden) Hej Kenneth
+Vi lavede et review af jeres kravspecifikation og har følgende spørgsmål til det.
+
+1- Vi kan ikke se en specifikation af sensorene (forsyning og data bus). Hvordan skal de tilsluttes resten af systemet? (se fig 1).
+
+2-  Vi er lidt i tvivl om at body frame og world frame koordinat systemerne er overens. Er det noget i kan be/afkrafte (fig. 2).
+
+3- Vedrørende UFR-7: har vi 300W at gøre godt for til POD'en eller er det den totale effekt budget?
+ 
+4- Hvad menes med Government Furnished Equipment (GFE)? Er det en standard? I så fald skal den i tabel 2.2 Standards 
+
+5- Hvad betyder LRU (den er ikke listet under forkortelser)?
+
+6- Vedrørende IR9, ved GEF må menes GFE, ikke?
+
+7- Skal betjening af safty pin være manuelt? Sådan et manuelt indgreb vil altid udgøre en risiko. Skal safty pinet ikke slåes til og fra via en automatisk vægt/kontakt sensor?
+
+8- Vedrørende  WR-1. 175 kg er total vægt? Er MWS (18.2Kg) og harness(20 Kg) inkluderet i PODS egen vægt på 175 Kg?
+
+Mvh
+Said (på vejen af gruppe G)
+
+===========================================================================
+
+fraKenneth Pihl <kennethpihl@gmail.com>tilSaid <said@alizadeh.dk>ccAnders Hvidgaard Poder <ahpoder@gmail.com>,
+Kaj Norman Nielsen <knn@aarhustech.dk>,
+Lars Munch Privat <lars@k-munch.dk>dato6. okt. 2010 18.26emnesvar på terma case spørgsmål fra Fsendt afgmail.comskjul detaljer 6. okt. (1 dag siden) Hej Said
+
+Se svar forneden:
+
+
+Hej Kenneth
+Vi lavede et review af jeres kravspecifikation og har følgende spørgsmål til det.
+
+1- Vi kan ikke se en specifikation af sensorene (forsyning og data bus). Hvordan skal de tilsluttes resten af systemet? (se fig 1). 
+Sensorer er tilkoblet MWS, så de skal blot sætte de stik til som er i ECU og sensorer, men ja de er ikke spec'et, så er det ikke blot at sige at de skal anvende stik af type "etellerandet" og kabel nogetandet? 
+
+2-  Vi er lidt i tvivl om at body frame og world frame koordinat systemerne er overens. Er det noget i kan be/afkrafte (fig. 2). 
+Se bort fra "world frame format" og hold jer til teksten i fig.2. 
+
+3- Vedrørende UFR-7: har vi 300W at gøre godt for til POD'en eller er det den totale effekt budget? 
+I skal ikke bruge nogen effekt. Denne oplysbing var beregnet til aircondition som I kan se bort fra efter aftale med Rune og Terma.
+ 
+4- Hvad menes med Government Furnished Equipment (GFE)? Er det en standard? I så fald skal den i tabel 2.2 Standards
+Med GFE menes at det er et færdigt produkt komplet specificeret. I kan
+antage at i har ubegrænset adgang til denne dokumentation og har i
+brug for oplysninger herfra opfinder i dem bare. Dette gælder også
+montering af stik (1).
+
+5- Hvad betyder LRU (den er ikke listet under forkortelser)? 
+LRU står for Line Replacable Unit, og det er ikke vigtigt for
+underleverandøren, andet end måske at sensorerne skal monteres så de kan
+udskiftes.
+
+6- Vedrørende IR9, ved GEF må menes GFE, ikke?
+Jo.
+
+7- Skal betjening af safty pin være manuelt? Sådan et manuelt indgreb vil altid udgøre en risiko. Skal safty pinet ikke slåes til og fra via en automatisk vægt/kontakt sensor? 
+Safety pind trækkes ud umiddelbart inden flyet skal lette og isættes når den er landet. Det er normal procedure på kampfly som har op til flere af sådanne pinde (klarmelder ved hvor mange).
+
+8- Vedrørende  WR-1. 175 kg er total vægt? Er MWS (18.2Kg) og harness(20 Kg) inkluderet i PODS egen vægt på 175 Kg? 
+I følge Terma case: Pod structure 175kg, Harness 20kg. Harness og MWS er ikke includeret i pod egenvægt på 175kg. 
+
