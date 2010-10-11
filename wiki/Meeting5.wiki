@@ -27,12 +27,12 @@ The meeting is a Critical Design Review, where the following documents will be r
 
 == Action items ==
 
- * The SOW for the subcontractor contains its own requirement IDs, yet no trace exist between these IDs and the SRS IDs.
+ # The SOW for the subcontractor contains its own requirement IDs, yet no trace exist between these IDs and the SRS IDs.
   * Company F informed that the requirements in the SOW for the subcontractor was taken directly from the SRS and given new numbers, and trace is therefore easy to complete. 
   * Company F will create the traceability table and send it to Terma
- * The money requirement in the case is not mentioned.
+ # The money requirement in the case is not mentioned.
   * Company F ensured Terma that the requirement is met and will forward the Excel sheet with the financial details of Company F's profit margin to Terma
- * The SOW for the subcontractor do not clearly enough state what exactly it is that the subcontractor is responsible for producing.
+ # The SOW for the subcontractor do not clearly enough state what exactly it is that the subcontractor is responsible for producing.
   * Company F will produce a new paragraph in the SOW detailing the specific responsibilities of the subcontractor, and also update Figure 1 in the SOW to clearly show the part that is the responsibility of the subcontractor.
 
 All action items must be completed by Company F and the resulting documentation must be forwarded to Terma no later than Thursday at 8AM GMT+1.
