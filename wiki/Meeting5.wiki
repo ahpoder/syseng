@@ -39,7 +39,7 @@ All action items must be completed and the resulting documentation must be forwa
 
 == Other matters adressed at the meeting ==
 
- * Terma had included 3 "traps" in the case; The power, the weight and the 5g-4g mismatch in the durability of the MWS and POD. It was mentioned that we had made an asumption based on the wording in the customer information, even though we were ware that there was a possible ambiguity here. It was agreed that the wording could be interpreted the way Company F had done, but that we should have clarified the requirement.
+ * Terma had included 3 "traps" in the case; The power, the weight and the 5g-4g mismatch in the durability of the MWS and POD. It was mentioned that we had made an asumption based on the wording in the customer information, even though we were aware that there was a possible ambiguity here. It was agreed that the wording could be interpreted the way Company F had done, but that we should have clarified the requirement.
  * Generally Terma and Rune felt it was a good SDD and we received much praise.
  * The MOM with the subcontractor was OK, but they would have liked it presented a little better than just a colour coded email.
  * The subcontractor design was accepted with a comment of OK.
