@@ -35,7 +35,7 @@ The meeting is a Critical Design Review, where the following documents will be r
  * The SOW for the subcontractor do not clearly enough state what exactly it is that the subcontractor is responsible for producing.
   * Company F will produce a new paragraph in the SOW detailing the specific responsibilities of the subcontractor, and also update Figure 1 in the SOW to clearly show the part that is the responsibility of the subcontractor.
 
-All action items must be completed and the resulting documentation must be forwarded to Terma no later than Thursday at 8AM GMT+1.
+All action items must be completed by Company F and the resulting documentation must be forwarded to Terma no later than Thursday at 8AM GMT+1.
 
 == Other matters adressed at the meeting ==
 
