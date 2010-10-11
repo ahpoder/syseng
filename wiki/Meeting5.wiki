@@ -17,8 +17,10 @@
 
 The meeting is a Critical Design Review, where the following documents will be reviewd:
 
- * SRS version A
- * RTM version A
- * Project plan version 0.4
+ * System Design Description for Self Protection Suite for F-14 version A
+ * Project plan version 0.5
+ * SOW til underleverandør
+ * MOM for underleverandør møde
+ * Underleverandør System Design Specification
 
 = Minutes of meeting =
