@@ -1,0 +1,21 @@
+Hej Terma og Rune,
+
+Vedhæftet er tre dokumenter;
+
+1. Pod requirement specification_vB.pdf
+2. SSDD Self Protect Suite DocID 0102_partial.pdf
+3. 
+
+Dokument 1 indeholder den nye version af underleverandør kravspecifikationen med en opdateret Figur 1 og en bedre beskrivelse af hvad der forventes at underleverandøren leverer. Den uddybende tekst kan findes i afsnit 1.3. Dette løser action item 3.
+
+Dokument 2 indeholder det tilføjede appendix med de økonomiske betragtninger for produktet set fra Company F's side; både for det tilfælde at vi ikke fik tilladelse til den ekstra vægt og den aktuelle situation. Dette løser action item 2.
+
+Dokument 3 indeholde en krav trace fra SRS krav til underleverandør SOW krav. Dette løser action item 1.
+
+Vi ser frem til at høre jeres kommentarer på disse dokumenter, men
+arbejder indtil da ud fra antagelsen om at vores action items er
+afsluttede.
+
+Med venlig hilsen
+
+Company F
