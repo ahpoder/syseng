@@ -1,0 +1,24 @@
+#summary Minutes of meeting Terma CDR meeting at IHA 11/10-10
+
+= Partisipents = 
+== Terma ==
+ * Tommy Vestermark
+ * ???
+ 
+== Quality Assurance ==
+ * Rune Jacobsen
+ 
+== Company F ==
+ * Kenneth Pihl
+ * Lars Munch
+ * Anders H. Poder
+
+= Agenda = 
+
+The meeting is a Critical Design Review, where the following documents will be reviewd:
+
+ * SRS version A
+ * RTM version A
+ * Project plan version 0.4
+
+= Minutes of meeting =
