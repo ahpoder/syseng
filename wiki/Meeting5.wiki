@@ -45,5 +45,6 @@ All action items must be completed by Company F and the resulting documentation 
  * The subcontractor design was accepted with a comment of OK.
  * It was mentioned that we had limited the availability of the document in section 1.3, which they thought was a good idea, but that we should be careful not to get too high a clasification on the document, as it then gets very difficult to work with the documents in practice.
   * Along these lines they were concerned with the amount of information we had forwarded our subcontractor, and it was mentioned that the SOW contained full system specification, which might not be acceptable to the customer.
+ * Terma commented that we did not include an analysis of why we wanted to use a subcontractor in the first place. It should have been part of the SDD to have a rational for choosing to use a subcontractor.
 
 The System Design Specification is approved, once action item 1, 2 and 3 has been completed.
