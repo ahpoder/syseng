@@ -1,0 +1,29 @@
+# Partisipents #
+
+# Agenda #
+
+  * Gennemgang af spørgsmål, hvis det findes nødvendigt (timeboxed 15min)
+  * Aftale nedbrydning af opgaver (min anbefaling er vist herunder):
+    * 1. Aftale næste deadline
+    * 2. Udføre Stakeholder requirement definition process
+      * Formalisere interface, power, og de andre plain-tekst sektioner til rigtige krav. Dette vil lang hen ad vejen blive brugt til underlevenradør SOW krav vil jeg mene.
+        * Her er input fra mødet omkring hvordan vi forholder os til dokumentation og viden som en rigtig underleverandør må forventes at beside fra start af, men som vi af gode grunde ikke har adgang eller tid til at indhente.
+      * Tage input fra møde 17/09-10 kl.: 10-12 og formalisere krav.
+        * Herunder ligger oprettelse af cockpit unit UI, og et vigtigt input fra mødet er derfor om den må have et display? Hvor meget plads har vi at gøre med? Hvad skal vi vise?
+        * Hvis vi skal lave et UI interface til at oprette Dispenser programmer så skal dette også beskrives, og det er derfor vigtigt at finde ud af på mødet om vi skal det.
+    * 3. Udføre Requirements analysis process
+      * Yderligere formalisere requirements i SRS (her er input fra møde samt svar på email nødvendige).
+      * Udsplitte seperate SOW krav til underleverandør.
+    * Min anbefaling er at vi splitter os op i grupper hvor en fokuserer på at få plain-tekst delen formaliseret i krav og den anden kikker på UI krav.
+  * Eventuelt
+
+# Minutes of meeting #
+
+  * Det blev besluttet at de generelle spørgsmål var de vigtigste.
+  * Det blev besluttet at der skal begyndes på et SRS/SRD så hurtigt så muligt.
+  * Det blev besluttet at anvende sss-did dokument som template (checkliste)
+  * AHP skriver MoM efter Terma case mødet i aften og sender email til projekt gruppen så hurtigt så muligt.
+  * AHP laver en Wiki "template" til en SRS/SRD som der kan fyldes i efter møde og MoM. Denne er ikke en endelig platform, men bare noget vi har til at fylde i indtil et endelig format bliver vedtaget.
+    * SRS skal indeholde trace til input, og der vil blive slået en ny version når input ændre sig.
+    * Den første SRS vil være en formalisering af de plain-tekst beskrivelser vi har som krav, samt rettelse af de funktionelle krav der er så de bliver systemkrav. SAmtidig vil de svar der kommer fra Terma mødet blive inkoopereret i kravene. Dette vil blive kaldt Stakeholder Requirement Definition versionen.
+    * Derefter vil ber blive lavet en ny version med den tidligere som input samt evt. opdaterede dokumenter, og den vil følge Requirement Analysis processen.

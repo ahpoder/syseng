@@ -1,0 +1,49 @@
+# Partisipents #
+## Terma ##
+  * Tommy Vestermark
+  * Jens
+
+## Quality Assurance ##
+  * Rune Jacobsen
+
+## Company F ##
+  * Kenneth Pihl
+  * Lars Munch
+  * Anders H. Poder
+
+# Agenda #
+
+The meeting is a Critical Design Review, where the following documents will be reviewd:
+
+  * System Design Description for Self Protection Suite for F-14 version A
+  * Project plan version 0.5
+  * SOW til underleverandør
+  * MOM for underleverandør møde
+  * Underleverandør System Design Specification
+
+# Minutes of meeting #
+
+## Action items ##
+
+  1. The SOW for the subcontractor contains its own requirement IDs, yet no trace exist between these IDs and the SRS IDs.
+    * Company F informed that the requirements in the SOW for the subcontractor was taken directly from the SRS and given new numbers, and trace is therefore easy to complete.
+    * Company F will create the traceability table and send it to Terma
+  1. The money requirement in the case is not mentioned.
+    * Company F ensured Terma that the requirement is met and will forward the Excel sheet with the financial details of Company F's profit margin to Terma
+  1. The SOW for the subcontractor do not clearly enough state what exactly it is that the subcontractor is responsible for producing.
+    * Company F will produce a new paragraph in the SOW detailing the specific responsibilities of the subcontractor, and also update Figure 1 in the SOW to clearly show the part that is the responsibility of the subcontractor.
+
+All action items must be completed by Company F and the resulting documentation must be forwarded to Terma no later than Thursday at 8AM GMT+1.
+
+## Other matters adressed at the meeting ##
+
+  * Terma had included 3 "traps" in the case; The power, the weight and the 5g-4g mismatch in the durability of the MWS and POD. It was mentioned that we had made an asumption based on the wording in the customer information, even though we were aware that there was a possible ambiguity here. It was agreed that the wording could be interpreted the way Company F had done, but that we should have clarified the requirement.
+  * Generally Terma and Rune felt it was a good SDD and we received much praise.
+  * The MOM with the subcontractor was OK, but they would have liked it presented a little better than just a colour coded email.
+  * The subcontractor design was accepted with a comment of OK.
+  * It was mentioned that we had limited the availability of the document in section 1.3, which they thought was a good idea, but that we should be careful not to get too high a clasification on the document, as it then gets very difficult to work with the documents in practice.
+    * Along these lines they were concerned with the amount of information we had forwarded our subcontractor, and it was mentioned that the SOW contained full system specification, which might not be acceptable to the customer.
+  * Terma commented that we did not include an analysis of why we wanted to use a subcontractor in the first place. It should have been part of the SDD to have a rational for choosing to use a subcontractor.
+  * Terma commented that our missile coverage analysis did not include a way to achieve 100% coverage. Even if the answer was to have two pots mounted, one under each wing, we should have included it.
+
+The System Design Specification is approved, once action item 1, 2 and 3 has been completed.

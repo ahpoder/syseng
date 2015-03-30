@@ -1,0 +1,38 @@
+# Partisipents #
+
+  * Representatives from each company
+  * Company F representative AHP
+  * Terma representatives
+  * Q/A manager Rune
+
+# Agenda #
+
+  * Rune: Gennemgang af generelle spørgsmål set fra processens side
+  * Terma: Gennemgang af spørgsmål
+  * Q&A
+
+# Minutes of meeting #
+  * Rune gik igennem de generelle spørgsmål og kom med forskellige input:
+    * Det hele kommer til at ligge på CamputNET.
+    * Det forventes at der bruges 32 timer på casen, men hvis man ikke tager på udflugten forventes der 30 timer ekstra - se endvidere powerpoint på CamputNET
+    * Det giver ekstra point hvis man kort skriver hvilke andre dokumenter man burde have lavet for at kunne have et rigtigt input til en SRR, samt hvilke dele man har undladt i selve SRS.
+      * Lad være med at fokusere på at skrive nogle rigtig gode dokumenter, det er processen der er vigtig.
+    * Projekt-planen skal bare være en tidslinie med de store milestones som viser hvordan vi har tænkt os at komme i mål med projektet.
+    * sss-did er et forslag til hvordan en SRS kan se ud. Vi skal bare skrive NA til alle de dele vi ikke vil lave. sss-did er også kun et forslag og vi må gerne bruge et andet layout.
+      * Hvis der er dele vi finder meget besværlige og irrelevante for læringen skal vi bare skrive udeladt med vilje og hvorfor.
+    * Det er OK at lave antagelser.
+    * Der skal ikke laves nogen `ConOps`.
+    * En 11 siders SRD (inklusiv alt (forside, ...)) er en god størrelse.
+    * Det er helt normalt at der er kommentarer og ændringer til en SRR, så det behøver ikke være perfekt.
+    * For at klarificere blev der udspecificeret at:
+      * Der skal IKKE afholdes SRR med underleverandør, kun CDR.
+      * Der skal altså afholdes 1 SRR og 2 CDR.
+      * De krav der kommer fra underleverandør skal være systemkrav, men hvis der er upræcise områder skal der bare laves antagelser og sendes en email til prime contractor.
+    * Den 15/10 skal vi præsentere en 15 minutters power-point slideshow (kun en 4-6 slides) af vores case arbejde. Der må gerne tages noget om processen med. Derefter er der 5 minutters Q&A fra/med salen (de andre grupper). Vi bør/skal gøre noget ud af præsentationen, da den også vil bliver set som vigtig.
+    * I uge 43 kommer der en individuel eksamen hvor man snakker lidt om projektet og processen og svarer på et par spørgsmål fra lærer/intern censor - no biggie.
+  * Terma gik igennem alle gruppers spørgsmål og svarene kan læses på: [Terma case questions and answers](http://code.google.com/p/syseng/wiki/CaseQuestions) as well as on CampusNET where the answers to other groups questions may also be read.
+    * The Dispenser in the case is actually a standard NATO dispenser, and there is a whole standard around it.
+    * Det er tilladt at vi f.eks. designer en ny DSS der kan styre alle magasiner (se cost område) for derved at spare vægt og strøm.
+    * Body frame format is a direction as seen from the planes angle where right in front of the plane is 0 degrees and behind the plane is 180 degrees.
+    * When describing "optimal" coverage a drawing with the plane and which angles are covered would be a good idea.
+    * Inertial format is North/Shoth

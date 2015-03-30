@@ -1,0 +1,65 @@
+# Partisipents #
+
+  * Kaj Norman
+  * Kenneth Pihl
+  * Lars Munch
+  * Anders H. Poder
+
+# Agenda #
+
+1. Diskussion af papirer der fungerer som oplæg til opgaven.
+  * Afklaring ?  af de spørgsmål der har været i.f.h.t. afleveringstider
+  * Afklaring af andre spørgsmål  (jeg har et par)
+
+2. Gennemgang af det indsendte
+  * Tidsplanen fra Lars Munch
+  * Skitser fra Anders Hvidgaard
+  * Stakeholder requirement def.(v 0.01) Kaj
+
+3. Arbejdsplan
+  * Møder.
+  * Møde på fredag
+  * Deadlines hvem laver hvad.
+
+4. Brug af google-code. (Anders)
+  * eventuelt lidt mere instruktion.
+  * gør vi det optimalt.
+
+5. eventuelt andet
+
+Det blev besluttet at forsøge at time-boxe hver punkt til 10minutter.
+
+# Minutes #
+
+Mødet blev afholdt som et konference opkald.
+
+Det blev afklaret at afleveringsfristen 72 timer før mødet er 3 dage i kallendertid, inklusiv weekend, så hvis mødet er mandag kl.: 10 så skal materialet afleveres inden fredag kl.: 10.
+
+Der blev stillet spørgsmål til hvad vi helt præcis skal afleverer til review d. 28/9-10. Det blev besluttet at Anders skulle formulere en email til Rune.
+
+Vi blev enige om en brug af Wiki og Subversion, og hvordan vi fortsætter med projektet.
+
+## Forberedelse til møde d. 17/10 ##
+
+  1. Vi laver en side med alle Terma case krav og så tilføjer vi kommentarer under hver. Anders starter med at samle de eksisterende kommentarer efter dette format. Dette skal være færdig Søndag d. 12/10 om aftenen.
+  1. Disse kommentarer samles nu til en serie spørgsmål på en anden Wiki-side Mandag d. 13/10, som forberedelse til spørgsmål før mødet d. 17/10.
+  1. Disse spørgsmål reviewes Tirsdag d. 14/10 og afsendes tirsdag aften.
+
+## Arbejde med underleverandør (Terma case) ##
+
+  1. Efter arbejde med spørgsmål til Terma case er færdiggjort aftales en skillelinie mellem hvad underleverandør skal lave og hvad vi skal lave
+  1. Efter denne deling er gjort kan gruppen arbejde parallelt på SRS og underleverandør Statement of Work.
+  1. der vil blive oprettet en Wiki hvor dette statement of work vil blive samlet og der vil komme kommentarer fra hele gruppen
+  1. Derefter vil det blive versioneret i subversion ligesom SRS'en (se nedenfor).
+  1. Der holdes derefter review på Statement of work før det sendes til underleverandør.
+
+## Arbejde med SRS ##
+
+  1. Når vi har fået afklaring på hvad præcis det er vi skal lave så påbegyndes dette arbejde ved at kombinerer Terma case requirements med kommentarer og svar på spørgsmål og en egentlig SRS skrives.
+  1. Denne skrives som et word dokument i subversion og versioneres (første version er v0).
+  1. Der afholdes intern review på denne spec, hvor hver medlem af gruppen laver en word kopi og skriver kommentarer som så comittes.
+  1. Derefter samles disse kommentarer i en v1 af SRS'en (Fagan review principles), som også comittes i subversion.
+
+## Arbejde som underleverandør (Systematic) ##
+
+  1. Da underleverandørens opgave i denne case er meget fluffy er vi ret afhængige af de krav vi får fra den primary contractor, så ud over at gøre os bekendt med casen vil vi ikke arbejde på denne før vi har noget konkret.

@@ -1,0 +1,68 @@
+# Introduction #
+
+This page is the main starting point of the Company F wiki. Please follow the link below to read details about the project status.
+
+On this page can also be found the overall activities that is happening right now.
+
+# Documentation formats #
+
+  * Text documents should be in Microsoft Word 2007
+  * Visio drawings should be accompanied with a .jpg file for non-visio users.
+  * Microsoft Projects files should be accompanied by a .pdf file for non-projects users.
+
+# Terma case #
+
+The case requirements from Terma A/S must be turned into an SRS. In the following document may be read the comments we have to the case.
+
+[CaseComments](CaseComments.md)
+
+## Case questions for 17/9-10 ##
+
+While working with the case some questions have arisen and these have been formulated in the below document and sent to Terma for answering prior to the meeting on 17/9-10.
+
+[CaseQuestions](CaseQuestions.md)
+
+# System Requirements Specifications #
+
+The system requirements specification is developed in the below document, and the latest released version (as well as its history) can be found in Subversion
+
+[SystemRequirementSpecification](SystemRequirementSpecification.md)
+
+# Ongoing activities #
+
+  1. Reading of cases and curriculum.
+  1. Create system requirements [SystemRequirementSpecification](SystemRequirementSpecification.md)
+
+# Completed activities #
+
+  1. Create first draft system drawing from requirements (see subversion or [SystemDesign](SystemDesign.md))
+  1. Create Wiki structure
+  1. Add comments to Terma case requirements on [CaseComments](CaseComments.md)
+  1. Formulate questions for Terma
+
+# Meetings #
+
+  * [Phone meeting 11/09-09](Meeting1.md)
+  * [Pre-Terma meeting at IHA 17/09-09](Meeting2.md)
+  * [Terma case meeting at IHA 17/09-09](Meeting3.md)
+  * [Terma SRR at IHA 28/09-09](Meeting4.md)
+  * [Terma CDR at IHA 11/10-09](Meeting5.md)
+
+# Email communication #
+
+There may be some latency on this item, as the emails are copied in manually after a given email session have ended.
+
+  * [30/08-10: Exchanging emails](http://syseng.googlecode.com/svn/trunk/email/300810_Company%20F_SysEng.pdf)
+  * [03/09-10: Company creation](http://syseng.googlecode.com/svn/trunk/email/030910_CompanyFmedlemmer.pdf)
+  * [04/09-10: Which case do Company F have?](http://syseng.googlecode.com/svn/trunk/email/040910_CompanyFcase.pdf)
+  * [05/09-10: Creating Wiki](http://syseng.googlecode.com/svn/trunk/email/050910TheuseofWIkiforCompanyF.pdf)
+  * [05/09-10: Wiki problems](http://syseng.googlecode.com/svn/trunk/email/050910_SV.pdf)
+  * [06/09-10: Project plan](http://syseng.googlecode.com/svn/trunk/email/060910_CompanyFProjectplanudkast.pdf)
+  * [08/09-10: Terma case work](http://syseng.googlecode.com/svn/trunk/email/080910_GennemgangafTERMAcase.pdf:)
+  * [10/09-10: Phone meeting setup](http://syseng.googlecode.com/svn/trunk/email/100910_Jegermedpaamoedealligevel.pdf)
+  * [11/09-10: Agenda for phone meeting](http://syseng.googlecode.com/svn/trunk/email/110910_ForslagtildagsordenformoedeIDAG.pdf)
+  * [11/09-10: Minutes of the meeting](http://syseng.googlecode.com/svn/trunk/email/110910_Moedereferat.pdf)
+  * [11/09-10: Questions for SRR content](http://syseng.googlecode.com/svn/trunk/email/110910_SpoergsmaaltilindholdafSRR.pdf)
+  * [12/09-10: Questions for the houres in advance questions handin](http://syseng.googlecode.com/svn/trunk/email/120910_FWSpoergsmaaltilspilleregler.pdf)
+  * [13/09-10: Logistics for meeting friday](http://syseng.googlecode.com/svn/trunk/email/130910_Moedefredag.pdf)
+  * [14/09-10: Questions for Terma](http://syseng.googlecode.com/svn/trunk/email/140910_plsconsiderIsthisrellevantforquestioningTerma.pdf)

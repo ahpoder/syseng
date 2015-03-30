@@ -1,0 +1,208 @@
+# Requirements #
+
+## Functional requirements ##
+
+### Introduction ###
+The Royal Danish Air Force has requested your company to deliver a self protection suite for the F-16 combat aircraft. The required solution incorporates a pod and an intelligent cockpit control unit for controlling the EW suite. The pod will be dispensing payloads (chaffs and flares) and hosting the Missile Warning System (MWS). The solution shall provide warning upon detection of missile threats and be able to automatically dispense payloads in response.
+The MWS will be provided as Government Furnished Equipment (GFE) and be physically installed by your company
+  * Kaj: When the document mentions The Royal Danish Airforce, taking the commercial aspect in consideration one should clarify who is going to pay, and what procedures will be used.
+  * Kaj: The abbreviation EW  is not known to me at this time.
+  * Kaj: Chaffs (small conductive stripes) are used as a countermeasure against being radar detected
+  * Kaj: Flares (burning metal often magnesium) is used as a countermeasure against being detected by a heat seeking misile.
+  * Kaj: The Misile Warning System being a GFE is presumably very well documented regarding crew safety. How good is the documentation when considering the interface (hardware/software/mechanical) description
+  * Kaj: What kind of documentation is required when delivering. Training in use of the equipment could be an issue.
+  * AHP: The abreviation EW stands for Electronic Warfare.
+
+
+
+### UR-1 The pod shall include a minimum of eight standard magazines. ###
+  * AHP: The word minimum is not suitable for a requirement specification. A better wording is to split it into two requirements, one indicating that it SHALL include 8, and another that indicates that the system should be designed to facilitate extention with more magazines (SHOULD).
+  * Kaj: The weight of a standard magazine must be known. Loaded and unloaded.
+  * KPI: As we are going to write a SOW on the POD we need to know the Size as well.
+  * KPI: How many payloads does a magazine contain?
+
+### UR-2 The pod shall be able to dispense forwards, downwards and sideways. ###
+  * Lars: Forwards – won’t there be a danger for the  combat fighter flies into the chaffs and flares? Why not backwards will the missile not often come from the back?
+  * Kaj to Lars: I think your conciderations are belonging in UR-3 ??
+  * Kaj: This requirement is incomplete. We need to know how many in each direction
+  * Kaj: I this a requirement that has to be met in the full range of operation (including g-forces in all directions)
+  * Lars: Kenneth you mentioned at a time that dispensing to the right, when placed under the left wing could be dangerous. To me it would look like it dispense into the body of the aircraft.
+  * AHP: As far as I can see there is no requirement to dispense to the right, only sideways, so it would be logical to asume that it is to the left
+
+### UR-3 Introduction of the system may not compromise the operation of the current weapon systems. ###
+  * KPI: The weapon system is not the aircraft. It's the weapons(bombs,missiles,rockets,guns,droptanks etc), the suspension/dispenser system, control & electrical system, monitoring(camera, IR detectors etc).
+  * Kaj: The increased weight will induce changed dynamic behavior of the  aircraft (If the aircraft is thought of as the weapon system).
+  * Kaj: Dispensing payloads may limit the range  of maneuvers executed by the airplane. Or the availability of directions to throw the payloads may have to be limited.
+  * Kaj: Dispensing payloads may limit on  the range of used weapons. Or the availability of directions to throw the payloads may have to be limited.
+  * Kaj: A standard magazine must be defined. Weight loaded and unloaded for calculating forces in the system
+
+### UR-4 ###
+  * Kaj: UR-4 is not in the list. For safety reasons a renumbering of the requirements is recommended in this early stage of development.
+  * Lars: UR 4 is placed as the very last one – wrong yes but it is there and it looks oaso to me as it is placed at the wrong place here. Agree a renumbering would be a good idea and at the same time check if ii is correct that it is placed nder interface requirements.
+
+### UR-5 Threats shall be transmitted to the aircraft mission computer in body frame format (relative to aircraft) for displaying purposes. ###
+
+  * KPI: Is this a conflict to the statement in "Missile Warning system" which says: The ECU will provide threat information in inertial format. Direction of the threat is relative to north.
+  * Kaj: The “Body frame format” is presumably a a protocol for transferring position or direction of the threatening misiles. See picture below.
+  * Kaj: We will need  the full information about this protocol.  At all levels (Physical, Electrical ,etc)
+  * Kaj: The information that states this is for displaying purposes  is not complete .. This information is also for audible and other purposes.
+> From http://www.perfectlogic.com/Articles/Avionics/FlightDynamics/FlightPart2.html
+
+> ![http://www.perfectlogic.com/Articles/Avionics/FlightDynamics/Fig2_4.gif](http://www.perfectlogic.com/Articles/Avionics/FlightDynamics/Fig2_4.gif)
+
+
+### UR-6 The system shall provide the aircraft mission computer with status information and built in test results. ###
+  * Kaj: What kind and amount of status information is needed. How will this be initiated
+  * Kaj: What kind and amount of test information is needed. How will this be initiated
+
+
+### UR-7 The system shall interface the aircraft intercom system to provide audio cues and warnings. ###
+  * Kaj: What kind of interface is provided.  Is there an audio cue system available for recording and playing cues. How is the protocol
+
+### UR-8 The system shall include a hardware implemented safety interlock to prevent dispensing on ground. ###
+  * KPI: The way it's done today is that the a safety-pin is inserted when the aircraft is on ground and removed before fligth.
+  * AHP: Is this a discrete we can get from the system? Is it a message on the system data bus? Or must it be implemented on the dispenser itself? Is it allowed to be a discrete, or should there (also) be a physical HW "pin" (like in a grenade) that must be removed before flight - I know that in real life such a "pin" exists
+
+### UR-9 The system shall be able to erase sensitive data upon input from a discrete zeroize signal from aircraft. ###
+  * Kaj: What data are sensitive. : detected misiles,  dropped loads,  configuration data  other.
+  * Kaj: What discrete signal. A button in cockpit  (hidden ??)
+  * Lars: What is meant with “Discrete signal”? Shall it be understanded as a wire with a signal, when set to a specific level for a minimum of some then the system is zeroized?
+
+
+### UR-10 The system status on individual LRU level shall be provided by cockpit unit. ###
+  * Lars: What is the meaning of LRU level?
+  * AHP LRU is Line Replacable Unit, and I figure it means the magazines, but we need to ask to be user.
+
+### UR-11 The cockpit unit shall be able to control power of dispensing system and MWS. ###
+  * Kaj: What does controll mean ? Supervise  or ..  If supervise, what will the output of the processs be and under what conditions (automatic or semiautomatic)?
+
+### UR-12 The system shall comprise at least three modes, manual, semi automatic and automatic. ###
+  * Kaj: The requirement is incomplete (At least).  Who decides if more modes are needed and when
+
+### UR-13 Manual mode shall dispense the program selected by the pilot. ###
+  * Kaj: I guess what is dispensed is chaffs and flares. And not the program :-)
+  * Kaj: The pilot presumably initiates the  preprogrammmed dispensing program.
+  * Kaj: A program is presumably a sequence defining a number of payloads to be dispensed in a predefined order and with a predefined timing.
+  * Kaj: How many programs needs to be available. How complex do they need to be. How "long". Who are doing the programming.
+  * AHP: At present the cockpit unit has a PCMCIA slot which takes a Flash drive with the programs on it, and they are then loaded into the ECU (MWS) via the data bus. I figure we can do the same - and the flash drive can be used to load the ECU and cockpit unit as well - We might as well switch to USB, though.
+
+### UR-14 Semi automatic shall initiate an intelligent threat response upon consent from the pilot. ###
+  * KPI: We need clarification on what "intelligent" means.
+  * Lars: Initiate an intelligent threat response – this is not a definition that can be tested with only one result and it will depnd on the the persons that test it. Can be changed to a special test sequence that gives an feedback that shall be like the test specifies.
+  * Kaj:I will presume that intelligent means preprogrammed.
+  * AHP: Yes, it means it should select a program based on the angle, velocity and type of the threat.
+
+### UR-15 Automatic mode shall initiate an intelligent threat response without pilot interaction. ###
+  * KPI: We need clarification on what "intelligent" means.
+  * Lars: Initiate an intelligent threat response – this is not a definition that can be tested with only one result and it will depnd on the the persons that test it. Can be changed to a special test sequence that gives an feedback that shall be like the test specifies.
+  * AHP: See UR-13
+
+### UR-16 The system shall provide a method of loading software to MWS. ###
+  * KPI: The MWS is hosted by the POD and therefore SW can be loaded when detached from the aircraft using a protocol defined by us.
+  * Lars: How is it possible to communicate and in this way loading SW to the MWS?
+  * Kaj:  MIL\_STD-1553-B defines the mechanical, electrical, and functional characteristics of a serial data bus. What is the higher level protocol.
+  * Kaj: I presume that our system will hold the original program for the mws. How big is this program? How can we check that the program is loaded corectly.
+  * Lars -> Kenneth: Yes we have some connections to the MWS, but we need information about how we can put in this SW – protocol, safety issues, only at our facilities, when mounted and so on.
+
+## Performance requirements ##
+
+### UR-20 The system shall be able to dispense a minimum of two payloads simultaneously. ###
+  * KPI: We need Therma to clarify what is meant with "simultaneously" e.g 5 flares/sec.
+  * Kaj: Can simultaneoulsly as stated here in reality be in a sequence. knowing that the ignition of a payload will last 20 ms. (will 40 ms be ok?)
+
+### UR-21 The system shall be able to dispense an intelligent pattern of payloads programmable by customer. ###
+  * KPI: We need clarification on what "intelligent" means.
+  * KPI: What is meant with "customer" (buyer, service personel, pilot)?.
+  * Lars: "an intelligent pattern of payloads" is not testable, could be changed to “a pattern of payload programmable by customer.
+  * Kaj: Is the programming to be done from the cockpit or from an externally connected device.
+
+### UR-22 The system shall provide the optimal coverage against missile threats. ###
+  * AHP: The word optimal is untestable and must be quantified
+  * Lars: Shall provide the optimal coverage against missile threats  - optimal coverage is not measurable and the main component for spotting the missiles are the MWS system which we just shall install we can not make that work better or worse.
+  * Kaj: We need to get rid of this requirement. (I guess we could make it work worse ;-)..
+
+## Environmental requirements ##
+
+### UR-30 The pod structure shall remain intact when exposed to steady state acceleration levels of 5g fore 2.5 aft, 25g up, 11 down. ###
+  * Lars: Specify a steady state acceleration level of 5g fore 2.5aft, 25g up and 11g down, but under Missile Warning System is stated that the MWS is only qualified to 4g fore 2.5aft, 22g up and 10g down. A test of an assembled system can then not be done above 4g, 22g and 10g.
+  * Lars: what are meant with "fore" and "aft"
+  * Kenneth: My guess is that fore and aft refer to the hooks where the pod is attached to the aircraft; one in front (fore) and one in the rear (aft)
+  * Kaj: 5g is the accelleration forward (in the flight direction of the aeroplane - positive when starting) 2.5g is the deccelleration in the flight direction of the aeroplane - positive when breaking for landing. There seems to be a mess in the description of the test(a number presumably the aft accelleration is missing).
+  * Lars: Specify a steady state acceleration level of 5g fore 2.5aft, 25g up and 11g down, but under "Precoditions -> Missile Warning System" is stated that the MWS is only qualified to 4g fore 2.5aft, 22g up and 10g down. A test of an assembled system can then not be done above 4g, 22g and 10g.
+  * Kaj: We also need to know if  e.g. fore 4g and up 22g is present at the same time (Phytagoras :-)
+  * AHP: the 5g... for the POD is structural failure. We test this while the MWS is turned off. The 4g... for the MWS is testing that the MWS remain on and operational during this strain (and can counteract missiles) - how to test this in practice is a big question though.
+
+### UR-31 The total weight of pod cannot exceed 270 kg. ###
+  * Lars: Bad grammar "Cannot exceed 270kg" – they probably want to say that the total weigth shall be maximum 270kg.
+
+### UR-32 The pod shall be operational at temperatures of 95°C on outer skin and 102°C on leading edge for 25 minutes. ###
+  * KPI: Are there any min. temp?
+  * Lars: What is the normal temperature level of the POD? If the level are so high that the temperature level that the MWS see after UR 32 or UR 33 are above 70°C then additional climate control must be added.
+  * I guess they know that the ECU, ... wil generate so much heat that minimum temperature is never an issue, but how much heat does it generate. And what is the insulating quality of the POD? Can there be an outer temperature of 151°C and an inner temperature of <70°C?
+
+### UR-33 The pod shall be operational at temperatures of 134°C on outer skin and 151°C on leading edge for 3 minutes. ###
+  * Lars: What is the normal temperature level of the POD? If the level are so high that the temperature level that the MWS see after UR 32 or UR 33 are above 70°C then additional climate control must be added.
+  * Kaj: Difficult ??
+
+## Interface requirements ##
+
+### UR-40 The cockpit unit shall communicate with the MWS via a MIL\_STD-1553-B data bus. ###
+  * Kaj: There is only one Bus Controller at a time on any MIL-STD-1553 bus. Is this the cockpit unit?
+
+### UR-41 The cockpit unit shall communicate with the mission computer via a MIL-STD-1553-B data bus. ###
+  * Kaj: There is only one Bus Controller at a time on any MIL-STD-1553 bus. Is this the cockpit unit?
+
+### UR-42 The pod shall be mounted on the aircraft wing with standard T-hooks spaced by 13 inches. ###
+
+### UR-43 The power consumption of the pod shall not exceed 700W ###
+
+### UR-4 The pod shall be mounted on the left-hand wing. ###
+  * KPI: UR-2 says dispensing sideways, I guess this is to the left?
+  * KPI->Lars: yes
+  * Lars: Left hand wing is that left hand for a pilot sitting in the aircraft?
+
+# Preconditions #
+
+## Power ##
+
+Your company has access to a qualified Power Conversion Unit, converting 115VAC 400Hz to 28VDC. The PCU can output a maximum of 250W. The PCU weighs 25 kg.
+
+  * Lars: Has access to, do that mean we can by or can produce our own PCU and this will and shall be placed in the POD?
+  * AHP: There is no indication of the efficiency of the PCU.
+  * KPI: Are there any requirements to grounding of the individual parts? This is usually normal in an aircraft!
+
+## Missile Warning System ##
+
+The MWS consists of six sensor units and one Electronics Control Unit (ECU)
+The ECU will provide threat information in inertial format. Direction of the threat is relative to north.
+The MWS must receive navigation data from the aircraft mission computer with a minimum latency. Navigation data includes aircraft attitude, heading, altitude and GPS data.
+The MWS is qualified to the following steady state acceleration levels 4g fore 2.5 aft, 22g up, 10 down.
+The MWS requires a maximum of 85W from 28VDC and a maximum of 100W from 115VAC 400Hz
+The MWS including ECU and six sensors weighs 18,2 kg.
+The MWS operating maximum temperature is 70°C.
+
+  * KPI: If the sensors are part of the POD how can they detect anything coming from the right on from above as the POD is placed under the left hand wing?
+  * KPI: Line 2 in conflict with UR-5?
+  * KPI: The MWS shall convert the thread to a position relative to north and an angle relative to aircrafts position.
+  * Lars: MWS output shall be converted from absolute north to relative to the combat aircraft.
+  * Lars: Receive navigation data with minimum latency – if not specified better we can not guarantee prober function.
+  * Lars: I misunderstanded this sentence:” The MWS must receive navigation data from the aircraft mission computer with a minimum latency.” in the first place. As I understand it now we shall receive the navigation data from the aircraft mission computer and pass it on to the MWS with a minimum of latency – BUT we need a maximum time so that we can test that we are below that maximum time. The problem is that our minimum latency time can be above limits that we don’t know anything about.
+
+## Provided interfaces ##
+
+The cockpit unit is provided with sufficient 28 VDC power.
+Various aircraft discrete signals can be routed to cockpit unit, to be discussed.
+Wiring in wing available to pod: 6 discrete wires, shielded wires suitable for data bus, 115VAC 400Hz power.
+
+  * Lars: Discrete signals does that include an "ON GROUND" signal?
+
+## Pod ##
+
+The pod structure, and if necessary, additional climate control must be purchased at sub supplier.
+
+## Dispensing ##
+
+The power required to ignite a payload is up to 126W for a period of up to 20ms. The Digital Sequencer Switches (DSS) run on 28 VDC and each consumes 3W for operating power plus the power required to ignite the payloads. Each DSS can control 2 magazines.
+
+  * AHP: We can only fire one Dispenser at a time (20ms intervals) - is that acceptable? (see subversion or [SystemDesign](SystemDesign.md))
+  * Kaj: I guess that we can fire more than one dispenser at a time if we charge  20 ms `*` 126 watt = 2,5 Joule into a battery or a capacitor .

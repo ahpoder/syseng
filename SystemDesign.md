@@ -1,0 +1,47 @@
+# Introduction #
+
+This page contains an overview of the system as it relates to communication, power and weight.
+
+# Overview #
+
+![http://syseng.googlecode.com/svn/trunk/system_drawing.jpg](http://syseng.googlecode.com/svn/trunk/system_drawing.jpg)
+
+# Power and Weight #
+
+![http://syseng.googlecode.com/svn/trunk/system_drawing_power.jpg](http://syseng.googlecode.com/svn/trunk/system_drawing_power.jpg)
+
+## Power table ##
+
+| **Description**     | **Sum**                  | **Total** |
+|:--------------------|:-------------------------|:----------|
+| Continous 28VDC   | ECU + 4 x DSS          | 97W     |
+| Continous 115VAC  |                        | 100W    |
+| Peak 28VDC        | 3 x Dispensing         | 378W    |
+|                   |                        |         |
+| Maximum 28VDC     |                        | 250W    |
+| Maximum 115VAC    |                        | 700W    |
+|                   |                        |         |
+| PCU efficiency    |                        | 80%     |
+| Conversion        | 1W 115VAC = 0,8W 28VDC |         |
+|                   |                        |         |
+| Continous 115VAC  | 97 / 0,8 + 100         | 221,25W |
+| Peak 115VAC       | 378 / 0,8              | 472,5W  |
+| Worst case 115VAC | 221,25 + 472,5         | 693,75W |
+
+As we "only" have 250W at 28VDC there is no way we can get 378 + 97, and we can therefore not fire all three dispensers at once. If we only fire one at a time we get 126 + 97, and that is below the 250W max. Firing two, as indicated in UR-20 will place us at 126\*2 + 97 = 349W, which is not acceptable.
+
+As for the maximum of 700W at 115VAC we come in just under it, yet as we cannot get the required power from the PCU, it is not relevant. The power requirement at 115VAC for where we "only" fire onedispenser at a time is 126 / 0,8 + 221,35 = 378,85, which is far below the 700W max, which is important if we need some power for the air condition.
+
+## Weight ##
+
+| **Description** | **Weight** |
+|:----------------|:-----------|
+| Pod harness   | 20kg     |
+| Pod structure | 175kg    |
+| PCU           | 25kg     |
+| ECU           | 18.2kg   |
+| 4 x DSS       | 15kg     |
+| 3 x Dispenser | 9kg      |
+| Total         | 267,2kg  |
+
+**ACCEPTABLE!**

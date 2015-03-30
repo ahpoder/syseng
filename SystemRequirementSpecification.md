@@ -1,0 +1,50 @@
+# Introduction #
+
+At first we attempted to place the SRS in Wiki, but it is simply not a good place for tables with text of a certain length in it. We have therefore moved the SRS to subversion, which should be edited in the following manor:
+
+  1. Write the new requirement or the modification to the requirement in a new (temporary) document.
+  1. Update from subversion so you are sure the SRS is of the newest version.
+  1. Merge the new requirement or the modification from the temporary document to the SRS form subversion.
+  1. Commit the real SRS to subversion. If the commit fails then step 2 - 4 must be repeated until it succeeds.
+
+The following guidelines must be adhered to at all times:
+
+  1. One must **NEVER** work directly in the main SRS from subversion, only merge to it.
+  1. It is mandatory to **ALWAYS** verify that when overriding or modifying requirements in the main SRS from subversion that others have not already modified or changed them since you decided to change them, i.e. do not override others changes unless you mean to.
+  1. That the time between update (2) and commit (4) are **as short as possible**, as the longer the time is the higher the probability is that someone else committed between the update and commit.
+
+# Description of acronyms #
+
+## Requirements ID ##
+
+FR-n indicates a functional requirement with ID n.<br />
+NR-n indicates a non-functional requirement with ID n.<br />
+PR-n indicates a performance requirement with ID n.<br />
+AC-n indicates an architectual contraint with ID n.<br />
+
+## Requirements completion level ##
+
+TBD: Requirement not done, awaiting completion.<br />
+TBR: Requirement done, but not reviewed within the project team.<br />
+TBS: Requirement awaiting input from customer or other.<br />
+
+# Input documents #
+
+Any document in Wiki may be used as input, just make a reference and create a PDF version in subversion, and that will be the actual reference. Some documents already have PDF versions:
+
+  * Terma case document v1
+  * Terma case comments v1
+  * Terma case meeting v1
+  * Terma case questions and answers v1
+
+# Released SRS versions #
+
+
+# Currently working on #
+
+  * Lars: Indledende afsnit i SRS
+  * Lars: Afsnit 3.1 States and modes - starter med oversigtstegninger og lidt tekst, så må vi snakke om det er korrekt og passer med de requirements der evt. kommer ud af yderligere behandling af requirements. Hmm.. kan seat det egentlig hører til UR 12 - UR15, håber at du Kaj kan bruge noget af det.
+  * Lars: Begynder på en RVTM, tager input fra Anders, men prøver ellers at få de skriftlige beskrivelser til sidst i Terma Case.pdf skrevet ind også, så de kan bearbejdes.
+  * Kaj: UR11-UR16,UR20,UR21
+  * Kenneth: Påbegynder SOW
+  * AHP: UR1 - UR10
